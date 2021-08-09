@@ -1,0 +1,11 @@
+.about__details-button {
+  @include font-size(14, 17, 600);
+  height: 50px;
+  width: 180px;
+  border-radius: 4px;
+  background-color: $about-button-color;
+  border: none;
+  cursor: pointer;
+  color: $font-dark-color;
+  margin-top: 50px;
+}

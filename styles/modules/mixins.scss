@@ -1,0 +1,23 @@
+@mixin font-size($font-size, $line-height, $font-weight, $opacity: 100%) {
+  font-size: $font-size * 1px;
+  line-height: $line-height * 1px;
+  font-style: normal;
+  font-family: $base-font-family;
+  font-weight: $font-weight;
+  opacity: $opacity;
+}
+
+@mixin reset-margin {
+  margin: 0;
+}
+
+@mixin reset-link-style {
+  text-decoration: none;
+}
+
+@mixin reset-list-style {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+

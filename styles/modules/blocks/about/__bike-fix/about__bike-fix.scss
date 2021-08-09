@@ -1,0 +1,12 @@
+.about__bike-fix {
+  position: sticky;
+  width: 440px;
+  height: 300px;
+  background-image: url(../../../../../images/about/about-bicycle.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  background-color: $background-light-color;
+  top: 347px;
+  box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
+}

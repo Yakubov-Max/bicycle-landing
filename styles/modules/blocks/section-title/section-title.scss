@@ -1,0 +1,6 @@
+.section-title {
+  @include reset-margin;
+  @include font-size(55, 60, 700);
+  letter-spacing: $title-letter-spacing;
+  max-width: $text-container-width;
+}

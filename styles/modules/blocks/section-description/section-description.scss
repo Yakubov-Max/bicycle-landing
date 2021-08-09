@@ -1,0 +1,6 @@
+.section-description {
+  @include reset-margin;
+  @include font-size(18, 28, 400, $text-opacity);
+  max-width: $text-container-width;
+  padding-top: 50px;
+}

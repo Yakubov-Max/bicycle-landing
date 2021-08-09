@@ -1,0 +1,7 @@
+.header__list {
+  @include reset-list-style;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding-right: 120px;
+}

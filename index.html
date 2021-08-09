@@ -4,26 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fonts/fonts.css">
     <link rel="stylesheet" href="./styles/style.css">
     <title>bicycle-landing</title>
   </head>
   <body class="page">
     <header class="header">
-      <a href="" class="header__link"></a>
-      <a href="" class="header__link"></a>
-      <a href="" class="header__link"></a>
+      <ul class="header__list">
+        <li class="header__list-item"><a href="#road" class="header__link">Покрытия и градиенты</a></li>
+        <li class="header__list-item"><a href="#bicycles" class="header__link">Велосипеды</a></li>
+        <li class="header__list-item"><a href="#workout-apps" class="header__link">Тренировки</a></li>
+      </ul>
     </header>
     <main class="content">
       <section class="about">
         <h1 class="section-title">Шоссе, ТТ и Грэвел</h1>
-        <p class="section-description"></p>
-        <button class="about__details-button">Подробнее</button>
+        <p class="section-description">Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам – нужно только определиться с выбором велосипеда и отправиться в путь.</p>
+        <button type="button" class="about__details-button">Подробнее</button>
         <div class="about__model-description">
-          <p class="about__model-name"></p>
+          <p class="about__model-name">Cannondale Systemsix</p>
           <div class="about__breakline"></div>
         </div>
-        <div class="about__bicycle-card"></div>
-        <div class="about__background-image"></div>
+        <div class="about__bike-fix-container">
+          <div class="about__bike-fix"></div>
+        </div>
+        <div class="about__background-image">
+        </div>
       </section>
       <section class="author">
         <img src="./images/eddie-merks/eddie-merks-image.jpg" alt="" class="author__image">
@@ -33,7 +39,7 @@
           <p class="author__occupation">Велогонщик</p>
         </div>
       </section>
-      <section class="road">
+      <section class="road" id="road">
         <h2 class="section-title">Шоссе</h2>
         <p class="section-description">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
         <div class="road__slider">
@@ -45,7 +51,7 @@
           <button class="road__pagination-next-button"></button>
         </div>
       </section>
-      <section class="bicycles">
+      <section class="bicycles" id="bicycles">
         <div class="bicycles__header">
           <h2 class="section-title">Велосипеды</h2>
           <ul class="bicycles__filter-menu">
@@ -69,7 +75,7 @@
           </figure>
         </div>
       </section>
-      <section class="workout-apps">
+      <section class="workout-apps" id="workout-apps">
         <h2 class="section-title">Тренировки</h2>
         <p class="section-description">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать эти тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный план.</p>
         <ul class="workout-apps__list">
