@@ -45,7 +45,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-left: 120px;
 }
 
 .section-title {
@@ -146,10 +145,64 @@
 
 .about {
   position: relative;
-  width: 100%;
+  min-width: 1440px;
   min-height: 836px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  padding-bottom: 120px;
+  padding-left: 120px;
+}
+
+.author__info-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 80px;
+}
+
+.author__quote {
+  margin: 0;
+  font-size: 34px;
+  line-height: 44px;
+  font-style: normal;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 600;
+  opacity: 100%;
+  letter-spacing: -0.5px;
+  width: 470px;
+}
+
+.author__description {
+  display: flex;
+  flex-direction: column;
+}
+
+.author__name {
+  margin: 0;
+  font-size: 20px;
+  line-height: 32px;
+  font-style: normal;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 500;
+  opacity: 100%;
+}
+
+.author__occupation {
+  margin: 0;
+  font-size: 16px;
+  line-height: 28px;
+  font-style: normal;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 400;
+  opacity: 70%;
+}
+
+.author {
+  padding-bottom: 120px;
+  padding-right: 120px;
+  padding-left: 120px;
+  display: flex;
+  justify-content: space-between;
 }

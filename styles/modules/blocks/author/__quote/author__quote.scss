@@ -1,0 +1,6 @@
+.author__quote {
+  @include reset-margin;
+  @include font-size(34, 44, 600);
+  letter-spacing: $title-letter-spacing;
+  width: $text-container-width + 10px;
+}

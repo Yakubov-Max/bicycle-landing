@@ -1,5 +1,14 @@
 @import "./__image/author__image.scss";
+@import "./__info-wrapper/author__info-wrapper.scss";
 @import "./__quote/author__quote.scss";
 @import "./__description/author__description.scss";
 @import "./__name/author__name.scss";
 @import "./__occupation/author__occupation.scss";
+
+.author {
+  padding-bottom: $section-bottom-padding;
+  padding-right: 120px;
+  padding-left: 120px;
+  display: flex;
+  justify-content: space-between;
+}

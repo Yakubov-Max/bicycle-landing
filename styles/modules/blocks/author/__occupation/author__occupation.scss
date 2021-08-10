@@ -1,0 +1,4 @@
+.author__occupation {
+  @include reset-margin;
+  @include font-size(16, 28, 400, 70%);
+}

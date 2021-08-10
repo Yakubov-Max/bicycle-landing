@@ -1,0 +1,4 @@
+.author__name {
+  @include reset-margin;
+  @include font-size(20, 32, 500);
+}
