@@ -4,3 +4,22 @@
   letter-spacing: $title-letter-spacing;
   width: $text-container-width + 10px;
 }
+
+@media screen and (max-width: $breakpoint-laptop) {
+  .author__quote {
+    @include font-size(28, 34, 600);
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
+}

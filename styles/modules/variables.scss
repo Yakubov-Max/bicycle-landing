@@ -11,3 +11,24 @@ $text-container-width: 460px;
 $about-button-color: #24b47e;
 $section-bottom-padding: 120px;
 $footer-background-color: #efefef;
+
+$breakpoint-laptop: 1024px;
+$breakpoint-tablet: 768px;
+$breakpoint-large-mobile: 425px;
+$breakpoint-mobile: 320px;
+
+@media screen and (max-width: $breakpoint-laptop) {
+
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
+}

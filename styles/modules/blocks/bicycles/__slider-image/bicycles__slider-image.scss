@@ -7,3 +7,22 @@
   border-radius: 20px;
 
 }
+
+@media screen and (max-width: $breakpoint-laptop) {
+ .bicycles__slider-image {
+   height: 260px;
+   width: 260px;
+ }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
+}

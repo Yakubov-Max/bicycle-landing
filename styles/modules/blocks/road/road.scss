@@ -11,8 +11,25 @@
 
 .road {
   padding-top: 60px;
-  max-width: 1440px;
   padding-left: 120px;
   padding-bottom: 60px;
   overflow: hidden;
+}
+
+@media screen and (max-width: $breakpoint-laptop) {
+ .road {
+   padding-left: 60px;
+ }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
 }

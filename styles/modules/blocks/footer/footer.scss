@@ -17,3 +17,22 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: $breakpoint-laptop) {
+  .footer {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
+}

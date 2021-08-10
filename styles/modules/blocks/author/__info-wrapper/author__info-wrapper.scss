@@ -4,3 +4,21 @@
   justify-content: space-between;
   padding-left: 80px;
 }
+
+@media screen and (max-width: $breakpoint-laptop) {
+  .author__info-wrapper {
+    padding-left: 40px;
+  }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
+}

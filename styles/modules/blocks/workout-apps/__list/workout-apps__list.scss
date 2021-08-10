@@ -3,3 +3,21 @@
   display: flex;
   padding-top: 182px;
 }
+
+@media screen and (max-width: $breakpoint-laptop) {
+ .workout-apps__list {
+   padding-top: 100px;
+ }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
+}

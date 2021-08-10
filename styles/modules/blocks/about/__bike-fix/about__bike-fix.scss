@@ -10,3 +10,23 @@
   background-color: $background-light-color;
   top: 347px;
 }
+
+@media screen and (max-width: $breakpoint-laptop) {
+  .about__bike-fix {
+    width: 380px;
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
+}
+

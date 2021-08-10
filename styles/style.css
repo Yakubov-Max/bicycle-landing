@@ -71,6 +71,16 @@
   padding-top: 50px;
 }
 
+.about__text-container {
+  padding-right: 250px;
+  padding-top: 60px;
+}
+
+@media screen and (max-width: 1024px) {
+  .about__text-container {
+    padding-right: 120px;
+  }
+}
 .about__details-button {
   font-size: 14px;
   line-height: 17px;
@@ -90,7 +100,6 @@
 
 .about__model-description {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding-top: 167px;
 }
@@ -120,6 +129,11 @@
   right: 0;
 }
 
+@media screen and (max-width: 1024px) {
+  .about__bike-fix-container {
+    width: 530px;
+  }
+}
 .about__bike-fix {
   box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.22);
   position: sticky;
@@ -133,9 +147,14 @@
   top: 347px;
 }
 
+@media screen and (max-width: 1024px) {
+  .about__bike-fix {
+    width: 380px;
+    height: 280px;
+  }
+}
 .about__background-image {
   background-image: url("../../../../../images/about/about-background.jpg");
-  position: absolute;
   top: 0;
   right: 0;
   width: 610px;
@@ -144,17 +163,35 @@
   overflow: hidden;
 }
 
+@media screen and (max-width: 1024px) {
+  .about__background-image {
+    width: 480px;
+  }
+}
 .about {
   position: relative;
-  min-width: 1440px;
   min-height: 836px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-start;
   padding-left: 120px;
+  padding-top: 20px;
 }
 
+@media screen and (max-width: 1024px) {
+  .about {
+    padding-left: 60px;
+  }
+}
+.author__image {
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .author__image {
+    width: 420px;
+  }
+}
 .author__info-wrapper {
   display: flex;
   flex-direction: column;
@@ -162,6 +199,11 @@
   padding-left: 80px;
 }
 
+@media screen and (max-width: 1024px) {
+  .author__info-wrapper {
+    padding-left: 40px;
+  }
+}
 .author__quote {
   margin: 0;
   font-size: 34px;
@@ -174,6 +216,17 @@
   width: 470px;
 }
 
+@media screen and (max-width: 1024px) {
+  .author__quote {
+    font-size: 28px;
+    line-height: 34px;
+    font-style: normal;
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 600;
+    opacity: 100%;
+    width: 100%;
+  }
+}
 .author__description {
   display: flex;
   flex-direction: column;
@@ -208,6 +261,12 @@
   justify-content: space-between;
 }
 
+@media screen and (max-width: 1024px) {
+  .author {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
 .road__slider {
   display: flex;
   width: 100%;
@@ -223,6 +282,12 @@
   padding-left: 40px;
 }
 
+@media screen and (max-width: 1024px) {
+  .road__slider-image {
+    width: 450px;
+    height: 300px;
+  }
+}
 .road__slider-rectangle-wrapper {
   position: relative;
 }
@@ -253,6 +318,11 @@
   padding-top: 50px;
 }
 
+@media screen and (max-width: 1024px) {
+  .road__pagination {
+    padding-top: 25px;
+  }
+}
 .road__pagination-button {
   border: none;
   height: 50px;
@@ -276,18 +346,27 @@
 
 .road {
   padding-top: 60px;
-  max-width: 1440px;
   padding-left: 120px;
   padding-bottom: 60px;
   overflow: hidden;
 }
 
+@media screen and (max-width: 1024px) {
+  .road {
+    padding-left: 60px;
+  }
+}
 .bicycles__header {
   display: flex;
   justify-content: space-between;
   padding-bottom: 140px;
 }
 
+@media screen and (max-width: 1024px) {
+  .bicycles__header {
+    padding-bottom: 80px;
+  }
+}
 .bicycles__filter-menu {
   list-style: none;
   padding-left: 0;
@@ -300,6 +379,11 @@
   padding-left: 40px;
 }
 
+@media screen and (max-width: 1024px) {
+  .bicycles__filter-menu-item {
+    padding-left: 20px;
+  }
+}
 .bicycles__filter-menu-link {
   text-decoration: none;
   font-size: 18px;
@@ -338,6 +422,12 @@
   border-radius: 20px;
 }
 
+@media screen and (max-width: 1024px) {
+  .bicycles__slider-image {
+    height: 260px;
+    width: 260px;
+  }
+}
 .bicycles__slider-caption {
   font-size: 18px;
   line-height: 22px;
@@ -348,6 +438,16 @@
   padding-top: 22px;
 }
 
+@media screen and (max-width: 1024px) {
+  .bicycles__slider-caption {
+    font-size: 16px;
+    line-height: 18px;
+    font-style: normal;
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 600;
+    opacity: 100%;
+  }
+}
 .bicycles {
   max-width: 1440px;
   padding-top: 60px;
@@ -356,12 +456,23 @@
   padding-bottom: 60px;
 }
 
+@media screen and (max-width: 1024px) {
+  .bicycles {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
 .workout-apps__text-container {
   display: flex;
   flex-direction: column;
   padding-right: 160px;
 }
 
+@media screen and (max-width: 1024px) {
+  .workout-apps__text-container {
+    padding-right: 80px;
+  }
+}
 .workout-apps__list {
   list-style: none;
   padding-left: 0;
@@ -370,6 +481,11 @@
   padding-top: 182px;
 }
 
+@media screen and (max-width: 1024px) {
+  .workout-apps__list {
+    padding-top: 100px;
+  }
+}
 .workout-apps__list-item {
   font-size: 18px;
   line-height: 28px;
@@ -384,13 +500,34 @@
   padding-right: 0px;
 }
 
+.workout-apps__background-image {
+  width: 580px;
+  height: 516px;
+}
+
+@media screen and (max-width: 1024px) {
+  .workout-apps__background-image {
+    width: 470px;
+    height: 436px;
+  }
+}
 .workout-apps {
   display: flex;
   justify-content: space-between;
   padding-bottom: 120px;
   padding-top: 150px;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
+@media screen and (max-width: 1024px) {
+  .workout-apps {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
 .footer__subscription {
   display: flex;
   flex-direction: column;
@@ -511,6 +648,12 @@ input:checked + .footer__theme-slider:before {
   justify-content: space-between;
 }
 
+@media screen and (max-width: 1024px) {
+  .footer {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
 .form-item {
   border: 1px solid rgba(199, 199, 199, 0.5);
   box-sizing: border-box;

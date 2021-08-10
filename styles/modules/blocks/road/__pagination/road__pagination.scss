@@ -4,3 +4,21 @@
   width: 120px;
   padding-top: 50px;
 }
+
+@media screen and (max-width: $breakpoint-laptop) {
+ .road__pagination {
+   padding-top: 25px;
+ }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
+}

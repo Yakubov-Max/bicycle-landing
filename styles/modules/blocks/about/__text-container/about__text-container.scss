@@ -1,12 +1,11 @@
-.workout-apps__text-container {
-  display: flex;
-  flex-direction: column;
-  padding-right: 160px;
+.about__text-container {
+  padding-right: 250px;
+  padding-top: 60px;
 }
 
 @media screen and (max-width: $breakpoint-laptop) {
- .workout-apps__text-container {
-   padding-right: 80px;
+ .about__text-container {
+   padding-right: 120px;
  }
 }
 

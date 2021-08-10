@@ -1,3 +1,21 @@
 .bicycles__filter-menu-item {
   padding-left: 40px;
 }
+
+@media screen and (max-width: $breakpoint-laptop) {
+ .bicycles__filter-menu-item {
+   padding-left: 20px;
+ }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
+}

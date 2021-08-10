@@ -5,3 +5,21 @@
   top: 0;
   right: 0;
 }
+
+@media screen and (max-width: $breakpoint-laptop) {
+ .about__bike-fix-container {
+   width: 530px;
+ }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
+}

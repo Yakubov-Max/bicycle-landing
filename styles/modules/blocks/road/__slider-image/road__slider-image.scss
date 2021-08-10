@@ -6,3 +6,22 @@
 .road__slider-image:last-child {
   padding-left: 40px;
 }
+
+@media screen and (max-width: $breakpoint-laptop) {
+ .road__slider-image {
+   width: 450px;
+   height: 300px;
+ }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
+}

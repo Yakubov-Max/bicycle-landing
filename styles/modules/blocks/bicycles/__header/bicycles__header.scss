@@ -3,3 +3,21 @@
   justify-content: space-between;
   padding-bottom: 140px;
 }
+
+@media screen and (max-width: $breakpoint-laptop) {
+  .bicycles__header {
+    padding-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
+}
