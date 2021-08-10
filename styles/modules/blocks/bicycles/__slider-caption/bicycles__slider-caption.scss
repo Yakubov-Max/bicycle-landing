@@ -10,7 +10,10 @@
 }
 
 @media screen and (max-width: $breakpoint-tablet) {
-
+  .bicycles__slider-caption {
+    @include font-size(12, 14, 600);
+    padding-top: 11px;
+  }
 }
 
 @media screen and (max-width: $breakpoint-large-mobile) {

@@ -11,7 +11,9 @@
 }
 
 @media screen and (max-width: $breakpoint-tablet) {
-
+  .workout-apps__text-container {
+    padding-right: 40px;
+  }
 }
 
 @media screen and (max-width: $breakpoint-large-mobile) {

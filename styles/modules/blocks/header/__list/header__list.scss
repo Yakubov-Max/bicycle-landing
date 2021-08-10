@@ -5,3 +5,17 @@
   width: 100%;
   padding-right: 120px;
 }
+
+@media screen and (max-width: $breakpoint-tablet) {
+ .header__list {
+   padding-right: 30px;
+ }
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
+}

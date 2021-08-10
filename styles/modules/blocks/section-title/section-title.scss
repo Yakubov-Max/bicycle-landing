@@ -4,3 +4,17 @@
   letter-spacing: $title-letter-spacing;
   max-width: $text-container-width;
 }
+
+@media screen and (max-width: $breakpoint-tablet) {
+ .section-title {
+   @include font-size(44, 50, 700);
+ }
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
+}

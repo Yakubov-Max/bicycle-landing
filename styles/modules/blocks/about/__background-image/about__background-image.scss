@@ -15,7 +15,10 @@
 }
 
 @media screen and (max-width: $breakpoint-tablet) {
-
+ .about__background-image {
+   width: 300px;
+   height: 630px;
+ }
 }
 
 @media screen and (max-width: $breakpoint-large-mobile) {

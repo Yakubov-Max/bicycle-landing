@@ -9,7 +9,6 @@
 
 .about {
   position: relative;
-  min-height: 836px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -24,6 +23,9 @@
 }
 
 @media screen and (max-width: $breakpoint-tablet) {
+  .about {
+    padding-left: 20px;
+  }
 
 }
 

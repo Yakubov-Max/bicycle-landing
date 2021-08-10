@@ -11,7 +11,10 @@
 }
 
 @media screen and (max-width: $breakpoint-tablet) {
-
+ .workout-apps__background-image {
+   width: 400px;
+   height: 300px;
+ }
 }
 
 @media screen and (max-width: $breakpoint-large-mobile) {

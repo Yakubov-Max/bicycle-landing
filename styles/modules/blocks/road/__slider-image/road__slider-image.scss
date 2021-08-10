@@ -15,7 +15,14 @@
 }
 
 @media screen and (max-width: $breakpoint-tablet) {
+  .road__slider-image {
+    width: 340px;
+    height: 200px;
+  }
 
+  .road__slider-image:last-child {
+    padding-left: 20px;
+  }
 }
 
 @media screen and (max-width: $breakpoint-large-mobile) {

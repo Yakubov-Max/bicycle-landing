@@ -22,7 +22,10 @@
 }
 
 @media screen and (max-width: $breakpoint-tablet) {
-
+  .author {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 @media screen and (max-width: $breakpoint-large-mobile) {

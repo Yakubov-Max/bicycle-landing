@@ -3,3 +3,17 @@
   @include reset-margin;
   padding-right: 30px;
 }
+
+@media screen and (max-width: $breakpoint-tablet) {
+ .about__model-name {
+   @include font-size(16, 18, 400);
+ }
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
+}

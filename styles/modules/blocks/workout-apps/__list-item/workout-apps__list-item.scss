@@ -6,3 +6,17 @@
 .workout-apps__list-item:last-child {
   padding-right: 0px;
 }
+
+@media screen and (max-width: $breakpoint-tablet) {
+ .workout-apps__list-item {
+   @include font-size(16, 24, 600);
+ }
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
+}

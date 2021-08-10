@@ -16,6 +16,11 @@
   padding-right: 120px;
 }
 
+@media screen and (max-width: 768px) {
+  .header__list {
+    padding-right: 30px;
+  }
+}
 .header__list-item {
   padding-left: 34px;
 }
@@ -59,6 +64,16 @@
   max-width: 460px;
 }
 
+@media screen and (max-width: 768px) {
+  .section-title {
+    font-size: 44px;
+    line-height: 50px;
+    font-style: normal;
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 700;
+    opacity: 100%;
+  }
+}
 .section-description {
   margin: 0;
   font-size: 18px;
@@ -71,6 +86,17 @@
   padding-top: 50px;
 }
 
+@media screen and (max-width: 768px) {
+  .section-description {
+    font-size: 16px;
+    line-height: 20px;
+    font-style: normal;
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 400;
+    opacity: 70%;
+    padding-top: 35px;
+  }
+}
 .about__text-container {
   padding-right: 250px;
   padding-top: 60px;
@@ -79,6 +105,11 @@
 @media screen and (max-width: 1024px) {
   .about__text-container {
     padding-right: 120px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about__text-container {
+    padding-right: 40px;
   }
 }
 .about__details-button {
@@ -104,6 +135,11 @@
   padding-top: 167px;
 }
 
+@media screen and (max-width: 768px) {
+  .about__model-description {
+    padding-top: 100px;
+  }
+}
 .about__model-name {
   font-size: 18px;
   line-height: 18px;
@@ -115,6 +151,16 @@
   padding-right: 30px;
 }
 
+@media screen and (max-width: 768px) {
+  .about__model-name {
+    font-size: 16px;
+    line-height: 18px;
+    font-style: normal;
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 400;
+    opacity: 100%;
+  }
+}
 .about__breakline {
   background-color: #d7d4d4;
   min-height: 2px;
@@ -132,6 +178,12 @@
 @media screen and (max-width: 1024px) {
   .about__bike-fix-container {
     width: 530px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about__bike-fix-container {
+    height: 640px;
+    width: 330px;
   }
 }
 .about__bike-fix {
@@ -153,6 +205,13 @@
     height: 280px;
   }
 }
+@media screen and (max-width: 768px) {
+  .about__bike-fix {
+    width: 280px;
+    height: 180px;
+    background-size: contain;
+  }
+}
 .about__background-image {
   background-image: url("../../../../../images/about/about-background.jpg");
   top: 0;
@@ -168,9 +227,14 @@
     width: 480px;
   }
 }
+@media screen and (max-width: 768px) {
+  .about__background-image {
+    width: 300px;
+    height: 630px;
+  }
+}
 .about {
   position: relative;
-  min-height: 836px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -181,6 +245,11 @@
 @media screen and (max-width: 1024px) {
   .about {
     padding-left: 60px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about {
+    padding-left: 20px;
   }
 }
 .author__image {
@@ -227,6 +296,16 @@
     width: 100%;
   }
 }
+@media screen and (max-width: 768px) {
+  .author__quote {
+    font-size: 22px;
+    line-height: 28px;
+    font-style: normal;
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 600;
+    opacity: 100%;
+  }
+}
 .author__description {
   display: flex;
   flex-direction: column;
@@ -242,6 +321,16 @@
   opacity: 100%;
 }
 
+@media screen and (max-width: 768px) {
+  .author__name {
+    font-size: 16px;
+    line-height: 26px;
+    font-style: normal;
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 500;
+    opacity: 100%;
+  }
+}
 .author__occupation {
   margin: 0;
   font-size: 16px;
@@ -252,6 +341,16 @@
   opacity: 70%;
 }
 
+@media screen and (max-width: 768px) {
+  .author__occupation {
+    font-size: 14px;
+    line-height: 24px;
+    font-style: normal;
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 400;
+    opacity: 70%;
+  }
+}
 .author {
   padding-top: 120px;
   padding-bottom: 60px;
@@ -267,12 +366,23 @@
     padding-right: 60px;
   }
 }
+@media screen and (max-width: 768px) {
+  .author {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
 .road__slider {
   display: flex;
   width: 100%;
   padding-top: 80px;
 }
 
+@media screen and (max-width: 768px) {
+  .road__slider {
+    padding-top: 40px;
+  }
+}
 .road__slider-image {
   width: 650px;
   height: 400px;
@@ -288,6 +398,16 @@
     height: 300px;
   }
 }
+@media screen and (max-width: 768px) {
+  .road__slider-image {
+    width: 340px;
+    height: 200px;
+  }
+
+  .road__slider-image:last-child {
+    padding-left: 20px;
+  }
+}
 .road__slider-rectangle-wrapper {
   position: relative;
 }
@@ -297,6 +417,7 @@
   background-repeat: no-repeat;
   width: 100px;
   height: 40px;
+  object-fit: contain;
 }
 
 .road__slider-rectangle {
@@ -356,6 +477,11 @@
     padding-left: 60px;
   }
 }
+@media screen and (max-width: 768px) {
+  .road {
+    padding-left: 20px;
+  }
+}
 .bicycles__header {
   display: flex;
   justify-content: space-between;
@@ -365,6 +491,11 @@
 @media screen and (max-width: 1024px) {
   .bicycles__header {
     padding-bottom: 80px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bicycles__header {
+    padding-bottom: 50px;
   }
 }
 .bicycles__filter-menu {
@@ -428,6 +559,13 @@
     width: 260px;
   }
 }
+@media screen and (max-width: 768px) {
+  .bicycles__slider-image {
+    height: 210px;
+    width: 210px;
+    border: none;
+  }
+}
 .bicycles__slider-caption {
   font-size: 18px;
   line-height: 22px;
@@ -448,6 +586,17 @@
     opacity: 100%;
   }
 }
+@media screen and (max-width: 768px) {
+  .bicycles__slider-caption {
+    font-size: 12px;
+    line-height: 14px;
+    font-style: normal;
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 600;
+    opacity: 100%;
+    padding-top: 11px;
+  }
+}
 .bicycles {
   max-width: 1440px;
   padding-top: 60px;
@@ -462,6 +611,12 @@
     padding-right: 60px;
   }
 }
+@media screen and (max-width: 768px) {
+  .bicycles {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
 .workout-apps__text-container {
   display: flex;
   flex-direction: column;
@@ -471,6 +626,11 @@
 @media screen and (max-width: 1024px) {
   .workout-apps__text-container {
     padding-right: 80px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .workout-apps__text-container {
+    padding-right: 40px;
   }
 }
 .workout-apps__list {
@@ -484,6 +644,11 @@
 @media screen and (max-width: 1024px) {
   .workout-apps__list {
     padding-top: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .workout-apps__list {
+    padding-top: 45px;
   }
 }
 .workout-apps__list-item {
@@ -500,6 +665,16 @@
   padding-right: 0px;
 }
 
+@media screen and (max-width: 768px) {
+  .workout-apps__list-item {
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 600;
+    opacity: 100%;
+  }
+}
 .workout-apps__background-image {
   width: 580px;
   height: 516px;
@@ -509,6 +684,12 @@
   .workout-apps__background-image {
     width: 470px;
     height: 436px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .workout-apps__background-image {
+    width: 400px;
+    height: 300px;
   }
 }
 .workout-apps {
@@ -526,6 +707,14 @@
     padding-right: 60px;
     padding-top: 100px;
     padding-bottom: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .workout-apps {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 }
 .footer__subscription {
@@ -652,6 +841,12 @@ input:checked + .footer__theme-slider:before {
   .footer {
     padding-left: 60px;
     padding-right: 60px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 .form-item {

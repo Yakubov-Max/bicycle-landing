@@ -16,7 +16,11 @@
 }
 
 @media screen and (max-width: $breakpoint-tablet) {
-
+ .bicycles__slider-image {
+   height: 210px;
+   width: 210px;
+   border: none;
+ }
 }
 
 @media screen and (max-width: $breakpoint-large-mobile) {

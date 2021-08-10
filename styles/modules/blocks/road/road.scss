@@ -23,7 +23,9 @@
 }
 
 @media screen and (max-width: $breakpoint-tablet) {
-
+  .road {
+    padding-left: 20px;
+  }
 }
 
 @media screen and (max-width: $breakpoint-large-mobile) {

@@ -4,3 +4,19 @@
   max-width: $text-container-width;
   padding-top: 50px;
 }
+
+
+@media screen and (max-width: $breakpoint-tablet) {
+ .section-description {
+   @include font-size(16, 20, 400, $text-opacity);
+   padding-top: 35px;
+ }
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
+}

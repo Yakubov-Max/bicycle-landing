@@ -3,3 +3,17 @@
   width: 100%;
   padding-top: 80px;
 }
+
+@media screen and (max-width: $breakpoint-tablet) {
+ .road__slider {
+   padding-top: 40px;
+ }
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
+}

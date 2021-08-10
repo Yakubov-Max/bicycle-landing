@@ -3,3 +3,18 @@
   align-items: center;
   padding-top: 167px;
 }
+
+
+@media screen and (max-width: $breakpoint-tablet) {
+  .about__model-description {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
+}

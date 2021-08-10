@@ -10,7 +10,9 @@
 }
 
 @media screen and (max-width: $breakpoint-tablet) {
-
+ .about__text-container {
+   padding-right: 40px;
+ }
 }
 
 @media screen and (max-width: $breakpoint-large-mobile) {

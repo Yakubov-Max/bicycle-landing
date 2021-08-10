@@ -19,7 +19,11 @@
 }
 
 @media screen and (max-width: $breakpoint-tablet) {
-
+ .about__bike-fix {
+   width: 280px;
+   height: 180px;
+   background-size: contain;
+ }
 }
 
 @media screen and (max-width: $breakpoint-large-mobile) {
