@@ -45,12 +45,19 @@
         <h2 class="section-title">Шоссе</h2>
         <p class="section-description">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
         <div class="road__slider">
-          <div class="road__slider-item"><img src="./images/highway/slide-highway.jpg" alt="slider-image" class="road__slider-image"></div>
-          <div class="road__slider-item"><img src="./images/highway/slide-forest.jpg" alt="slider-image" class="road__slider-image"></div>
+          <div class="road__slider-rectangle-wrapper">
+            <img src="./images/highway/slide-highway.jpg" alt="slider-image" class="road__slider-image">
+            <div class="road__slider-rectangle">
+              <div class="road__slider-rectangle-background">
+                <img src="./images/highway/Vector-highway.svg" alt="highway" class="road__slider-vector">
+              </div>
+            </div>
+          </div>
+          <img src="./images/highway/slide-forest.jpg" alt="slider-image" class="road__slider-image">
         </div>
         <div class="road__pagination">
-          <button class="road__pagination-previous-button"></button>
-          <button class="road__pagination-next-button"></button>
+          <button class="road__pagination-button road__pagination-button_previous"></button>
+          <button class="road__pagination-button road__pagination-button_next"></button>
         </div>
       </section>
       <section class="bicycles" id="bicycles">

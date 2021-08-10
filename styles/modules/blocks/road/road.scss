@@ -1,5 +1,17 @@
 @import "./__slider/road__slider.scss";
-@import "./__slider-item/road__slider-item.scss";
+@import "./__slider-image/road__slider-image.scss";
+@import "./__slider-rectangle-wrapper/road__slider-rectangle-wrapper.scss";
+@import "./__slider-rectangle-background/road__slider-rectangle-background.scss";
+@import "./__slider-rectangle/road__slider-rectangle.scss";
+@import "./__slider-vector/road__slider-vector.scss";
 @import "./__pagination/road__pagination.scss";
-@import "./__pagination-previous-button/road__pagination-previous-button.scss";
-@import "./__pagination-next-button/road__pagination-next-button.scss";
+@import "./__pagination-button/road__pagination-button.scss";
+@import "./__pagination-button/_previous/road__pagination-button_previous.scss";
+@import "./__pagination-button/_next/road__pagination-button_next.scss";
+
+.road {
+  max-width: 1440px;
+  padding-left: 120px;
+  padding-bottom: $section-bottom-padding;
+  overflow: hidden;
+}
