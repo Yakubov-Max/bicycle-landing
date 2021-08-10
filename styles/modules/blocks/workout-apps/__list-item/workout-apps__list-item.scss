@@ -1,0 +1,8 @@
+.workout-apps__list-item {
+  @include font-size(18, 28, 600);
+  padding-right: 30px;
+}
+
+.workout-apps__list-item:last-child {
+  padding-right: 0px;
+}

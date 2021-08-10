@@ -1,0 +1,5 @@
+.workout-apps__list {
+  @include reset-list-style;
+  display: flex;
+  padding-top: 182px;
+}

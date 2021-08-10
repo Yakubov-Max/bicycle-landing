@@ -1,2 +1,11 @@
+@import "./__text-container/workout-apps__text-container.scss";
 @import "./__list/workout-apps__list.scss";
-@import "./__list-item/workout__list-item.scss";
+@import "./__list-item/workout-apps__list-item.scss";
+@import "./__background-image/workout-apps__background-image.scss";
+
+.workout-apps {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 120px;
+  padding-top: 150px;
+}

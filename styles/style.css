@@ -151,7 +151,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding-bottom: 120px;
   padding-left: 120px;
 }
 
@@ -200,7 +199,8 @@
 }
 
 .author {
-  padding-bottom: 120px;
+  padding-top: 120px;
+  padding-bottom: 60px;
   padding-right: 120px;
   padding-left: 120px;
   display: flex;
@@ -274,9 +274,10 @@
 }
 
 .road {
+  padding-top: 60px;
   max-width: 1440px;
   padding-left: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 60px;
   overflow: hidden;
 }
 
@@ -348,7 +349,43 @@
 
 .bicycles {
   max-width: 1440px;
+  padding-top: 60px;
   padding-left: 120px;
   padding-right: 120px;
+  padding-bottom: 60px;
+}
+
+.workout-apps__text-container {
+  display: flex;
+  flex-direction: column;
+  padding-right: 160px;
+}
+
+.workout-apps__list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  padding-top: 182px;
+}
+
+.workout-apps__list-item {
+  font-size: 18px;
+  line-height: 28px;
+  font-style: normal;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 600;
+  opacity: 100%;
+  padding-right: 30px;
+}
+
+.workout-apps__list-item:last-child {
+  padding-right: 0px;
+}
+
+.workout-apps {
+  display: flex;
+  justify-content: space-between;
   padding-bottom: 120px;
+  padding-top: 150px;
 }

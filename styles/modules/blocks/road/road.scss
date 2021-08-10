@@ -10,8 +10,9 @@
 @import "./__pagination-button/_next/road__pagination-button_next.scss";
 
 .road {
+  padding-top: 60px;
   max-width: 1440px;
   padding-left: 120px;
-  padding-bottom: $section-bottom-padding;
+  padding-bottom: 60px;
   overflow: hidden;
 }
