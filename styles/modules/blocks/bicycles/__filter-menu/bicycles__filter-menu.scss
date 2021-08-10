@@ -1,0 +1,5 @@
+.bicycles__filter-menu {
+  @include reset-list-style;
+  display: flex;
+  align-items: center;
+}

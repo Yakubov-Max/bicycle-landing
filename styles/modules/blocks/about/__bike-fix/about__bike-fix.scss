@@ -1,4 +1,5 @@
 .about__bike-fix {
+  @include box-shadow;
   position: sticky;
   width: 440px;
   height: 300px;
@@ -8,5 +9,4 @@
   border-radius: 20px;
   background-color: $background-light-color;
   top: 347px;
-  box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
 }

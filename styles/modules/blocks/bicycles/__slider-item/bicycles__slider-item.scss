@@ -1,0 +1,8 @@
+.bicycles__slider-item {
+  @include reset-margin;
+  padding-left: 30px;
+}
+
+.bicycles__slider-item:first-child {
+  padding-left: 0px;
+}

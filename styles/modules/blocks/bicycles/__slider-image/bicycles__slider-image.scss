@@ -1,0 +1,9 @@
+.bicycles__slider-image {
+  @include box-shadow;
+  height: 380px;
+  width: 380px;
+  border: 20px solid $background-light-color;
+  box-sizing: border-box;
+  border-radius: 20px;
+
+}
