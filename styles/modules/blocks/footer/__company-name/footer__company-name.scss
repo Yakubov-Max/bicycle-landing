@@ -1,0 +1,6 @@
+.footer__company-name {
+  @include reset-margin;
+  @include font-size(14, 20, 600);
+  padding-top: 100px;
+  color: #CFCFCF;
+}

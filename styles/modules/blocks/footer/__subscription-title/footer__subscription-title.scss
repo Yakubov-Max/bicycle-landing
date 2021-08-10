@@ -1,0 +1,7 @@
+.footer__subscription-title {
+  @include reset-margin;
+  @include font-size(24, 32, 600);
+
+  padding-bottom: 50px;
+  width: 229px;
+}

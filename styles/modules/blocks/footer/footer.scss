@@ -1,7 +1,19 @@
+@import "./__subscription/footer__subscription.scss";
 @import "./__subscription-title/footer__subscription-title.scss";
 @import "./__subscription-form/footer__subscription-form.scss";
 @import "./__company-name/footer__company-name.scss";
 @import "./__theme-change-container/footer__theme-change-container.scss";
 @import "./__theme-light-button/footer__theme-light-button.scss";
-@import "./__theme-switch-button/footer__theme-switch-button.scss";
+@import "./__theme-slider/footer__theme-slider.scss";
+@import "./__theme-switch/footer__theme-switch.scss";
 @import "./__theme-dark-button/footer__theme-dark-button.scss";
+
+.footer {
+  padding-top: 80px;
+  padding-bottom: 60px;
+  padding-left: 120px;
+  padding-right: 120px;
+  background-color: $footer-background-color;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,16 @@
+.form-item {
+  border: 1px solid rgba(199, 199, 199, 0.5);
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 360px;
+  height: 50px;
+  padding-left: 20px;
+}
+
+.form-item:focus {
+  border: 1px solid #c7c7c7;
+}
+
+.form-item::placeholder {
+  @include font-size(13, 28, 70%)
+}
