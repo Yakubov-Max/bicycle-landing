@@ -138,6 +138,10 @@
   padding-top: 428px;
 }
 
+.section-description_workout-apps {
+  padding-top: 305px;
+}
+
 .about__text-container {
   padding-right: 250px;
   padding-top: 60px;
@@ -950,6 +954,12 @@
     padding-right: 40px;
   }
 }
+@media screen and (max-width: 425px) {
+  .workout-apps__text-container {
+    order: 3;
+    padding-right: 0px;
+  }
+}
 .workout-apps__list {
   list-style: none;
   padding-left: 0;
@@ -966,6 +976,12 @@
 @media screen and (max-width: 768px) {
   .workout-apps__list {
     padding-top: 45px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .workout-apps__list {
+    order: 3;
+    padding-top: 40px;
   }
 }
 .workout-apps__list-item {
@@ -992,6 +1008,16 @@
     opacity: 100%;
   }
 }
+@media screen and (max-width: 425px) {
+  .workout-apps__list-item {
+    font-size: 14px;
+    line-height: 20px;
+    font-style: normal;
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 600;
+    opacity: 100%;
+  }
+}
 .workout-apps__background-image {
   width: 580px;
   height: 516px;
@@ -1009,9 +1035,20 @@
     height: 300px;
   }
 }
+@media screen and (max-width: 425px) {
+  .workout-apps__background-image {
+    width: 284px;
+    height: 225px;
+    order: 2;
+    position: absolute;
+    top: 240px;
+    bottom: 250px;
+  }
+}
 .workout-apps {
   display: flex;
   justify-content: space-between;
+  position: relative;
   padding-bottom: 120px;
   padding-top: 150px;
   padding-left: 120px;
@@ -1032,6 +1069,12 @@
     padding-right: 20px;
     padding-top: 80px;
     padding-bottom: 80px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .workout-apps {
+    flex-direction: column;
+    padding-bottom: 60px;
   }
 }
 .footer__subscription {

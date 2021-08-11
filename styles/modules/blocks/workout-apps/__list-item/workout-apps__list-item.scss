@@ -14,7 +14,9 @@
 }
 
 @media screen and (max-width: $breakpoint-large-mobile) {
-
+  .workout-apps__list-item {
+    @include font-size(14, 20, 600);
+  }
 }
 
 @media screen and (max-width: $breakpoint-mobile) {
