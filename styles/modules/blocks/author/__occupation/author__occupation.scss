@@ -10,7 +10,10 @@
 }
 
 @media screen and (max-width: $breakpoint-large-mobile) {
-
+  .author__occupation {
+    @include font-size(10, 16, 400, 70%);
+    padding-top: 4px;
+  }
 }
 
 @media screen and (max-width: $breakpoint-mobile) {

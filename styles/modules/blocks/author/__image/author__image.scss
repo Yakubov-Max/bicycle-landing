@@ -13,7 +13,11 @@
 }
 
 @media screen and (max-width: $breakpoint-large-mobile) {
-
+ .author__image {
+   width: 284px;
+   height: 204px;
+   padding-top: 20px;
+ }
 }
 
 @media screen and (max-width: $breakpoint-mobile) {

@@ -20,7 +20,12 @@
 }
 
 @media screen and (max-width: $breakpoint-large-mobile) {
-
+ .about__bike-fix-container {
+   height: 160px;
+   width: 234px;
+   left: 38px;
+   top: 351px;
+ }
 }
 
 @media screen and (max-width: $breakpoint-mobile) {

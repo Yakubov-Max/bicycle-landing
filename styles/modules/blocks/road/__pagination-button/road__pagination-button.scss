@@ -6,3 +6,20 @@
   background-color: #ebebeb;
   cursor: pointer;
 }
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+ .road__pagination-button {
+   height: 24px;
+   width: 24px;
+   background-size: 4.5px 10px;
+ }
+
+ .road__pagination-button:first-child {
+   margin-right: 10px;
+ }
+
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
+}

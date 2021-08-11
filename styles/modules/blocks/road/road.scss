@@ -29,7 +29,16 @@
 }
 
 @media screen and (max-width: $breakpoint-large-mobile) {
-
+  .road {
+    padding-top: 0px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 40px;
+  }
 }
 
 @media screen and (max-width: $breakpoint-mobile) {

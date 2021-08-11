@@ -1,13 +1,12 @@
-.header__list-item {
-  padding-left: 34px;
+.header__list-item_burger-menu {
+  display: none;
 }
 
 @media screen and (max-width: $breakpoint-large-mobile) {
-  .header__list-item {
-    display: none;
+  .header__list-item_burger-menu {
+    display: block;
   }
 }
 
 @media screen and (max-width: $breakpoint-mobile) {
-
 }

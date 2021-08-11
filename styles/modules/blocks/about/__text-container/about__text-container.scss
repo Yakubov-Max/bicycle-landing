@@ -16,7 +16,11 @@
 }
 
 @media screen and (max-width: $breakpoint-large-mobile) {
-
+ .about__text-container {
+   padding-left: 18px;
+   padding-right: 18px;
+   padding-top: 0px;
+ };
 }
 
 @media screen and (max-width: $breakpoint-mobile) {

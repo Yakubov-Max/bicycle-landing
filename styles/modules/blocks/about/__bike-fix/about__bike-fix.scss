@@ -28,7 +28,10 @@
 }
 
 @media screen and (max-width: $breakpoint-large-mobile) {
-
+  .about__bike-fix {
+    width: 234px;
+    height: 160px;
+  }
 }
 
 @media screen and (max-width: $breakpoint-mobile) {

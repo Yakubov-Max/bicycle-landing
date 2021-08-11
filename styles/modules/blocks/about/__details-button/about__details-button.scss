@@ -9,3 +9,15 @@
   color: $font-dark-color;
   margin-top: 50px;
 }
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+ .about__details-button {
+   margin-top: 40px;
+   width: 284px;
+   height: 46px;
+ }
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
+}

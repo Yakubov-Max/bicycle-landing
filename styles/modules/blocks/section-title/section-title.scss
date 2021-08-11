@@ -12,6 +12,11 @@
 }
 
 @media screen and (max-width: $breakpoint-large-mobile) {
+  .section-title {
+    @include font-size(32, 40, 700);
+    max-width: 284px;
+    padding-top: 40px;
+  }
 
 }
 

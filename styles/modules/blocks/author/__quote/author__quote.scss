@@ -19,7 +19,10 @@
 }
 
 @media screen and (max-width: $breakpoint-large-mobile) {
-
+ .author__quote {
+   @include font-size(23, 29, 600);
+   padding-bottom: 40px;
+ }
 }
 
 @media screen and (max-width: $breakpoint-mobile) {

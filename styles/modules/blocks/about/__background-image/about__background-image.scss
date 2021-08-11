@@ -6,6 +6,7 @@
   height: 836px;
   z-index: -1;
   overflow: hidden;
+  background-size: cover;
 }
 
 @media screen and (max-width: $breakpoint-laptop) {
@@ -22,7 +23,15 @@
 }
 
 @media screen and (max-width: $breakpoint-large-mobile) {
-
+ .about__background-image {
+   position: absolute;
+   width: 254px;
+   height: 348px;
+   left: 48px;
+   bottom: 238px;
+   right: 18px;
+   top: 200px;
+ }
 }
 
 @media screen and (max-width: $breakpoint-mobile) {

@@ -10,7 +10,9 @@
 }
 
 @media screen and (max-width: $breakpoint-large-mobile) {
-
+  .author__name {
+    @include font-size(14, 22, 500);
+  }
 }
 
 @media screen and (max-width: $breakpoint-mobile) {

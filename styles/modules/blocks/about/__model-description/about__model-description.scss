@@ -12,7 +12,9 @@
 }
 
 @media screen and (max-width: $breakpoint-large-mobile) {
-
+ .about__model-description {
+   display: none;
+ }
 }
 
 @media screen and (max-width: $breakpoint-mobile) {

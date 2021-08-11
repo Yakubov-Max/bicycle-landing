@@ -14,9 +14,14 @@
 }
 
 @media screen and (max-width: $breakpoint-large-mobile) {
-
+  .section-description {
+    @include font-size(12, 18, 400, 70%);
+    order: 3;
+  }
 }
 
 @media screen and (max-width: $breakpoint-mobile) {
 
 }
+
+@import "./_mobile/section-description_mobile.scss";
