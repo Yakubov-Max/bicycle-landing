@@ -14,3 +14,13 @@
 .form-item::placeholder {
   @include font-size(13, 28, 70%)
 }
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+  .form-item {
+    width: 264px;
+  }
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
+}

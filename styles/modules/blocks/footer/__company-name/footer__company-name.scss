@@ -1,6 +1,15 @@
 .footer__company-name {
   @include reset-margin;
   @include font-size(14, 20, 600);
-  padding-top: 100px;
   color: #CFCFCF;
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+ .footer__company-name {
+  font-weight: 500;
+ }
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
 }

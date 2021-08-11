@@ -7,6 +7,8 @@
 @import "./__theme-slider/footer__theme-slider.scss";
 @import "./__theme-switch/footer__theme-switch.scss";
 @import "./__theme-dark-button/footer__theme-dark-button.scss";
+@import "./__logo/footer__logo.scss";
+@import "./__company-container/footer__company-container.scss";
 
 .footer {
   padding-top: 80px;
@@ -33,7 +35,12 @@
 }
 
 @media screen and (max-width: $breakpoint-large-mobile) {
-
+  .footer {
+    padding-top: 60px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 16px;
+  }
 }
 
 @media screen and (max-width: $breakpoint-mobile) {

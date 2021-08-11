@@ -3,5 +3,14 @@
   @include font-size(24, 32, 600);
 
   padding-bottom: 50px;
-  width: 229px;
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+ .footer__subscription-title {
+   padding-bottom: 40px;
+ }
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
 }

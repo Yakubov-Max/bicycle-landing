@@ -1,0 +1,16 @@
+.footer__logo {
+  display: none;
+  height: 38px;
+  width: 38px;
+}
+
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+  .footer__logo {
+    display: block;
+  }
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
+}
