@@ -1,0 +1,15 @@
+.bicycles__mobile-pagination {
+  display: none;
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+  .bicycles__mobile-pagination {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
+}

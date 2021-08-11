@@ -1,0 +1,13 @@
+.bicycles__filter-menu-item_mobile {
+  display: none;
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+ .bicycles__filter-menu-item_mobile {
+   display: block;
+ }
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
+}

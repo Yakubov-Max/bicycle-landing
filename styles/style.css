@@ -700,6 +700,13 @@
     padding-bottom: 50px;
   }
 }
+@media screen and (max-width: 425px) {
+  .bicycles__header {
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-top: 40px;
+  }
+}
 .bicycles__filter-menu {
   list-style: none;
   padding-left: 0;
@@ -708,6 +715,11 @@
   align-items: center;
 }
 
+@media screen and (max-width: 425px) {
+  .bicycles__filter-menu {
+    padding-top: 20px;
+  }
+}
 .bicycles__filter-menu-item {
   padding-left: 40px;
 }
@@ -715,6 +727,12 @@
 @media screen and (max-width: 1024px) {
   .bicycles__filter-menu-item {
     padding-left: 20px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .bicycles__filter-menu-item {
+    display: none;
+    padding-left: 0px;
   }
 }
 .bicycles__filter-menu-link {
@@ -737,15 +755,29 @@
   justify-content: space-between;
 }
 
+@media screen and (max-width: 425px) {
+  .bicycles__slider-wrapper {
+    box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.22);
+    justify-content: center;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+}
 .bicycles__slider-item {
   margin: 0;
   padding-left: 30px;
+  cursor: pointer;
 }
 
 .bicycles__slider-item:first-child {
   padding-left: 0px;
 }
 
+@media screen and (max-width: 425px) {
+  .bicycles__slider-item:nth-last-child(-n+2) {
+    display: none;
+  }
+}
 .bicycles__slider-image {
   box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.22);
   height: 380px;
@@ -766,6 +798,13 @@
     height: 210px;
     width: 210px;
     border: none;
+  }
+}
+@media screen and (max-width: 425px) {
+  .bicycles__slider-image {
+    box-shadow: none;
+    height: 254px;
+    width: 254px;
   }
 }
 .bicycles__slider-caption {
@@ -799,6 +838,74 @@
     padding-top: 11px;
   }
 }
+@media screen and (max-width: 425px) {
+  .bicycles__slider-caption {
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 16px;
+  }
+}
+.bicycles__filter-menu-item_mobile {
+  display: none;
+}
+
+@media screen and (max-width: 425px) {
+  .bicycles__filter-menu-item_mobile {
+    display: block;
+  }
+}
+.bicycles__select-dropdown {
+  font-size: 11px;
+  line-height: 14px;
+  font-style: normal;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 600;
+  opacity: 100%;
+  border: 1px solid #e3e3e3;
+  width: 114px;
+  height: 30px;
+  padding-left: 12px;
+  border-radius: 2px;
+}
+
+.bicycles__select-option {
+  font-size: 11px;
+  line-height: 14px;
+  font-style: normal;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 600;
+  opacity: 100%;
+}
+
+.bicycles__mobile-pagination {
+  display: none;
+}
+
+@media screen and (max-width: 425px) {
+  .bicycles__mobile-pagination {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+}
+.bicycles__pagination-dot {
+  padding: 0;
+  margin-left: 5px;
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  background-color: #CACACA;
+  border: none;
+}
+
+.bicycles__pagination-dot:first-child {
+  margin-left: 0px;
+}
+
+.bicycles__pagination-dot_active {
+  background: #151515;
+}
+
 .bicycles {
   max-width: 1440px;
   padding-top: 60px;
@@ -817,6 +924,14 @@
   .bicycles {
     padding-left: 20px;
     padding-right: 20px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .bicycles {
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 0px;
+    padding-bottom: 40px;
   }
 }
 .workout-apps__text-container {

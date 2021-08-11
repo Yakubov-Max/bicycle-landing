@@ -1,8 +1,19 @@
 .bicycles__slider-item {
   @include reset-margin;
   padding-left: 30px;
+  cursor: pointer;
 }
 
 .bicycles__slider-item:first-child {
   padding-left: 0px;
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+ .bicycles__slider-item:nth-last-child(-n+2) {
+  display: none;
+ }
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
 }

@@ -7,6 +7,12 @@
 @import "./__slider-item/bicycles__slider-item.scss";
 @import "./__slider-image/bicycles__slider-image.scss";
 @import "./__slider-caption/bicycles__slider-caption.scss";
+@import "./__filter-menu-item/_mobile/bicycles__filter-menu-item_mobile.scss";
+@import "./__select-dropdown/bicycles__select-dropdown.scss";
+@import "./__select-option/bicycles__select-option.scss";
+@import "./__mobile-pagination/bicycles__mobile-pagination.scss";
+@import "./__pagination-dot/bicycles__pagination-dot.scss";
+@import "./__pagination-dot/_active/bicycles__pagination-dot_active.scss";
 
 .bicycles {
   max-width: 1440px;
@@ -31,7 +37,12 @@
 }
 
 @media screen and (max-width: $breakpoint-large-mobile) {
-
+ .bicycles {
+   padding-left: 18px;
+   padding-right: 18px;
+   padding-top: 0px;
+   padding-bottom: 40px;
+ }
 }
 
 @media screen and (max-width: $breakpoint-mobile) {

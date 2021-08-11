@@ -18,7 +18,11 @@
 }
 
 @media screen and (max-width: $breakpoint-large-mobile) {
-
+ .bicycles__header {
+   flex-direction: column;
+   padding-bottom: 20px;
+   padding-top: 40px;
+ }
 }
 
 @media screen and (max-width: $breakpoint-mobile) {
