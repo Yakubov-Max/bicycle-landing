@@ -538,18 +538,15 @@
   width: 100px;
   height: 40px;
   object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .road__slider-rectangle {
   position: absolute;
   left: 0;
   bottom: 16px;
-}
-
-.road__slider-vector {
-  padding-top: 12px;
-  padding-left: 16px;
-  padding-bottom: 12px;
 }
 
 .road__pagination {
@@ -859,6 +856,11 @@
 
 .bicycles__pagination-dot_active {
   background: #151515;
+}
+
+.bicycles__slider-item-link {
+  text-decoration: none;
+  color: #151515;
 }
 
 .bicycles {
@@ -1298,6 +1300,15 @@ input:checked + .footer__theme-slider:before {
   padding-bottom: 0px;
 }
 
+.header__burger-nav {
+  display: none;
+}
+
+@media screen and (max-width: 425px) {
+  .header__burger-nav {
+    display: block;
+  }
+}
 .header__mobile-theme-change-container {
   display: flex;
   padding-bottom: 36px;

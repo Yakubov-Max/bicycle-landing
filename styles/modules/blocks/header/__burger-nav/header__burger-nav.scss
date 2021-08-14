@@ -1,0 +1,9 @@
+.header__burger-nav {
+  display: none;
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+ .header__burger-nav {
+   display: block;
+ }
+}
