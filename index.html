@@ -21,10 +21,27 @@
         <li class="header__list-item">
           <a href="#workout-apps" class="header__link">Тренировки</a>
         </li>
-        <li class="header__list-item header__list-item_burger-menu">
-          <a href="#" class="header__link">123</a>
-        </li>
       </ul>
+      <nav class="header__burger-nav">
+          <button type="button" class="header__burger-button"></button>
+          <div class="header__burger-content">
+            <ul class="header__burger-list">
+              <li class="header__burger-list-item"><a href="#road" class="header__burger-link">Покрытия и градиенты</a>
+              </li>
+              <li class="header__burger-list-item"><a href="#bicycles" class="header__burger-link">Велосипеды</a>
+              </li>
+              <li class="header__burger-list-item"><a href="#workout-apps" class="header__burger-link">Тренировки</a>
+              </li>
+            </ul>
+            <div class="footer__theme-change-container header__mobile-theme-change-container">
+              <button class="footer__theme-light-button"></button>
+              <label class="footer__theme-switch">
+                <input type="checkbox" />
+                <span class="footer__theme-slider"></span>
+              </label>
+              <button class="footer__theme-dark-button"></button>
+            </div>
+      </nav>
     </header>
     <main class="content">
       <section class="about">
@@ -212,5 +229,6 @@
         <button class="footer__theme-dark-button"></button>
       </div>
     </footer>
+    <script src="./scripts/index.js"></script>
   </body>
 </html>
