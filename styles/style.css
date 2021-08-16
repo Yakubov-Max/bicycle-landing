@@ -236,7 +236,7 @@
   position: sticky;
   width: 440px;
   height: 300px;
-  background-image: url(../../../../../images/about/about-bicycle.jpg);
+  background-image: url(../images/about/about-bicycle.jpg);
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 20px;
@@ -265,7 +265,7 @@
   }
 }
 .about__background-image {
-  background-image: url("../../../../../images/about/about-background.jpg");
+  background-image: url("../images/about/about-background.jpg");
   top: 0;
   right: 0;
   width: 610px;
@@ -556,7 +556,7 @@
 }
 
 .road__slider-rectangle-background {
-  background-image: url("../../../../../images/highway/rectangle.png");
+  background-image: url("../images/highway/rectangle.png");
   background-repeat: no-repeat;
   width: 100px;
   height: 40px;
@@ -621,13 +621,13 @@
 .road__pagination-button_previous {
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(../../../../../../images/highway/previous-light-theme.svg);
+  background-image: url("../images/highway/previous-light-theme.svg");
 }
 
 .road__pagination-button_next {
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(../../../../../../images/highway/next-light-theme.svg);
+  background-image: url("../images/highway/next-light-theme.svg");
 }
 
 .road {
@@ -913,7 +913,7 @@
 }
 @media screen and (max-width: 320px) {
   .bicycles {
-    max-width: 288px;
+    max-width: 280px;
   }
 }
 .workout-apps__text-container {
@@ -1113,7 +1113,7 @@
   border: none;
   height: 28px;
   width: 28px;
-  background-image: url(../../../../../images/theme-switch-ui/light-theme.svg);
+  background-image: url("../images/theme-switch-ui/light-theme.svg");
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -1174,7 +1174,7 @@ input:checked + .footer__theme-slider:before {
   border: none;
   height: 28px;
   width: 28px;
-  background-image: url(../../../../../images/theme-switch-ui/dark-theme.svg);
+  background-image: url("../images/theme-switch-ui/dark-theme.svg");
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -1280,7 +1280,7 @@ input:checked + .footer__theme-slider:before {
   }
 }
 .header__burger-button {
-  background-image: url("../../../../../images/burger-menu.png");
+  background-image: url("../images/burger-menu.png");
   border: none;
   background-position: center;
   background-color: transparent;
@@ -1361,7 +1361,7 @@ input:checked + .footer__theme-slider:before {
 }
 
 .header__burger-button_opened {
-  background-image: url("../../../../../../images/close-button.svg");
+  background-image: url("../images/close-button.svg");
   background-size: cover;
 }
 

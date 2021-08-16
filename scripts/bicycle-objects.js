@@ -1,4 +1,4 @@
-export const bicycleObjects = {
+const bicycleObjects = {
   highway: [
     {
       title: "Cervelo Caledonia-5",

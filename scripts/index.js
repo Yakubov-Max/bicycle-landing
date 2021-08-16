@@ -15,8 +15,6 @@ function handleDropdownButton() {
   headerDropdownButton.classList.toggle("header__burger-button_opened");
 }
 
-import { sliderObjects } from "./slider-objects.js";
-
 const roadSection = document.querySelector(".road");
 
 const roadTitle = roadSection.querySelector(".section-title");
@@ -35,7 +33,6 @@ roadPaginationNextBtn.addEventListener("click", handleNextPagination);
 roadPaginationPreviousBtn.addEventListener("click", handlePreviousPagination);
 
 let currentPage = 0;
-console.log(currentPage)
 
 function handleNextPagination() {
   currentPage += 1;
@@ -66,8 +63,6 @@ function paginate(currentPage) {
   roadSecondImage.src = currentSlide.secondImage;
   roadTrackSvg.src = currentSlide.trackSvg;
 }
-
-import { bicycleObjects } from "./bicycle-objects.js";
 
 const bicyclesSection = document.querySelector(".bicycles");
 

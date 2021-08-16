@@ -1,4 +1,4 @@
-export const sliderObjects = [
+const sliderObjects = [
   {
     title: "Шоссе",
     description:
