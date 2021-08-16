@@ -8,17 +8,9 @@
  }
 }
 
-@media screen and (max-width: $breakpoint-tablet) {
-
-}
-
 @media screen and (max-width: $breakpoint-large-mobile) {
  .bicycles__filter-menu-item {
    display: none;
    padding-left: 0px;
  }
-}
-
-@media screen and (max-width: $breakpoint-mobile) {
-
 }

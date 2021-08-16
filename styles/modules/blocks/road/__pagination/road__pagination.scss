@@ -12,10 +12,6 @@
  }
 }
 
-@media screen and (max-width: $breakpoint-tablet) {
-
-}
-
 @media screen and (max-width: $breakpoint-large-mobile) {
  .road__pagination {
    justify-content: center;
@@ -28,8 +24,4 @@
    bottom: 394px;
    position: absolute;
  }
-}
-
-@media screen and (max-width: $breakpoint-mobile) {
-
 }
