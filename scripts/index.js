@@ -51,8 +51,6 @@ function paginate(currentPage) {
     currentPage = sliderObjects.length - 1;
   }
 
-  console.log(currentPage)
-
   let currentSlide = sliderObjects[currentPage];
   let roadFirstImage = roadImages[0];
   let roadSecondImage = roadImages[1];
