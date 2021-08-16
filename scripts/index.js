@@ -35,6 +35,7 @@ roadPaginationNextBtn.addEventListener("click", handleNextPagination);
 roadPaginationPreviousBtn.addEventListener("click", handlePreviousPagination);
 
 let currentPage = 0;
+console.log(currentPage)
 
 function handleNextPagination() {
   currentPage += 1;
@@ -47,11 +48,13 @@ function handlePreviousPagination() {
 }
 
 function paginate(currentPage) {
-  if (currentPage < 0) {
+  if (currentPage <= 0) {
     currentPage = 0;
-  } else if (currentPage > sliderObjects.length - 1) {
+  } else if (currentPage >= sliderObjects.length - 1) {
     currentPage = sliderObjects.length - 1;
   }
+
+  console.log(currentPage)
 
   let currentSlide = sliderObjects[currentPage];
   let roadFirstImage = roadImages[0];
@@ -167,4 +170,25 @@ if (window.innerWidth <= 425) {
 
   const pagination = document.querySelector(".swiper-pagination");
   pagination.style.bottom = 0;
+}
+
+const body = document.querySelector(".page")
+const footer = document.querySelector(".footer")
+const breaklines = document.querySelectorAll(".mobile-content-breakline")
+const themeChangeButtons = document.querySelectorAll('input[name=theme-change]')
+
+
+themeChangeButtons.forEach(element => {
+  element.addEventListener("change", handleThemeChange)
+})
+
+function handleThemeChange() {
+  console.log("click")
+  body.classList.toggle('page_dark-mode')
+  footer.classList.toggle('footer_dark-mode')
+  console.log(breaklines)
+  breaklines.forEach(element => {
+    element.classList.toggle('mobile-content-breakline_dark-mode')
+  })
+
 }

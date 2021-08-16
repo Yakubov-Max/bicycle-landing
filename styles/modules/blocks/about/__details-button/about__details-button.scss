@@ -8,6 +8,14 @@
   cursor: pointer;
   color: $font-dark-color;
   margin-top: 50px;
+  transition: all 0.4s ease;
+}
+
+.about__details-button:hover {
+  background: linear-gradient(to right, rgba(49, 158, 117) 50%, $about-button-color 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  animation: progressFill 6s -.1s ease-in-out forwards;
 }
 
 @media screen and (max-width: $breakpoint-large-mobile) {
@@ -20,4 +28,9 @@
 
 @media screen and (max-width: $breakpoint-mobile) {
 
+}
+
+@keyframes progressFill {
+  from {background-position: right bottom;}
+  to {background-position: left bottom;}
 }

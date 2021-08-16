@@ -1,3 +1,4 @@
 .header__burger-list {
   @include reset-list-style;
+  background-color: inherit;
 }
