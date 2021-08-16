@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./vendor/normalize/normalize.css" />
     <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" media="screen and (max-width: 425px)" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <title>bicycle-landing</title>
   </head>
@@ -149,13 +150,13 @@
             </li>
           </ul>
         </div>
-        <div class="bicycles__slider-wrapper">
+        <div class="bicycles__slider-container swiper-container">
+        <div class="bicycles__slider-wrapper swiper-wrapper">
         </div>
-        <div class="bicycles__mobile-pagination">
-          <button class="bicycles__pagination-dot bicycles__pagination-dot_active"></button>
-          <button class="bicycles__pagination-dot"></button>
-          <button class="bicycles__pagination-dot "></button>
+        <div class="swiper-pagination bicycles__mobile-pagination">
+
         </div>
+      </div>
       </section>
       <section class="workout-apps" id="workout-apps">
         <div class="mobile-content-breakline"></div>
@@ -200,7 +201,7 @@
       </div>
     </footer>
     <template id="bicycle-item">
-      <div class="bicycle__item">
+      <div class="bicycle__item swiper-slide">
       <a href="#" class="bicycles__slider-item-link">
         <figure class="bicycles__slider-item">
           <img
@@ -215,5 +216,6 @@
       </div>
     </template>
     <script type="module" src="./scripts/index.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   </body>
 </html>

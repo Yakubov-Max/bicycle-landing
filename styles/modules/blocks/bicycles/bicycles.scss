@@ -43,9 +43,12 @@
    padding-right: 18px;
    padding-top: 0px;
    padding-bottom: 40px;
+   max-width: 425px;
  }
 }
 
 @media screen and (max-width: $breakpoint-mobile) {
-
+  .bicycles {
+    max-width: 288px;
+  }
 }

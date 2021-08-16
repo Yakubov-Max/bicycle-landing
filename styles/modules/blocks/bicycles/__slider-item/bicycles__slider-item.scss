@@ -9,9 +9,13 @@
 }
 
 @media screen and (max-width: $breakpoint-large-mobile) {
- .bicycles__slider-item:nth-last-child(-n+2) {
-  display: none;
- }
+  .bicycles__slider-item {
+    padding-left: 0px;
+    width: 288px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: $breakpoint-mobile) {

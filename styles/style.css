@@ -707,14 +707,6 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 425px) {
-  .bicycles__slider-wrapper {
-    box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.22);
-    justify-content: center;
-    border-radius: 20px;
-    cursor: pointer;
-  }
-}
 .bicycles__slider-item {
   margin: 0;
   padding-left: 30px;
@@ -726,8 +718,12 @@
 }
 
 @media screen and (max-width: 425px) {
-  .bicycles__slider-item:nth-last-child(-n+2) {
-    display: none;
+  .bicycles__slider-item {
+    padding-left: 0px;
+    width: 288px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 .bicycles__slider-image {
@@ -837,10 +833,10 @@
   .bicycles__mobile-pagination {
     display: flex;
     justify-content: center;
-    padding-top: 20px;
+    bottom: 0;
   }
 }
-.bicycles__pagination-dot {
+.swiper-pagination-bullet {
   padding: 0;
   margin-left: 5px;
   height: 4px;
@@ -854,7 +850,7 @@
   margin-left: 0px;
 }
 
-.bicycles__pagination-dot_active {
+.swiper-pagination-bullet-active {
   background: #151515;
 }
 
@@ -889,6 +885,12 @@
     padding-right: 18px;
     padding-top: 0px;
     padding-bottom: 40px;
+    max-width: 425px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .bicycles {
+    max-width: 288px;
   }
 }
 .workout-apps__text-container {

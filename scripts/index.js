@@ -145,3 +145,26 @@ function renderBicyclesCards(cardsToRender) {
 }
 
 renderInitialBicycleCards();
+
+const bicyclesSelectDropdown = bicyclesSection.querySelector(
+  ".bicycles__select-dropdown"
+);
+
+bicyclesSelectDropdown.addEventListener("change", handleBicyclesSelect);
+
+function handleBicyclesSelect(event) {
+  let roadType = event.target.value;
+  let cardsToRender = getBicyclesCards(roadType);
+  renderBicyclesCards(cardsToRender);
+}
+
+if (window.innerWidth <= 425) {
+  new Swiper(".bicycles__slider-container", {
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+
+  const pagination = document.querySelector(".swiper-pagination");
+  pagination.style.bottom = 0;
+}
