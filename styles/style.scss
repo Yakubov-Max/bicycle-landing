@@ -1,3 +1,8 @@
+@import "../vendor/normalize/normalize.css";
+@import "../fonts/fonts.css";
+@media screen and (max-width: 425px) {
+  @import "../vendor/swiper/swiper-bundle.min.css";
+}
 @import "./modules/variables.scss";
 @import "./modules/mixins.scss";
 @import "./modules/blocks/page/page.scss";
