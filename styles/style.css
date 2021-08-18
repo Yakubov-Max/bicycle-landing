@@ -824,12 +824,12 @@
     padding-bottom: 16px;
   }
 }
-.bicycles__filter-menu-item_mobile {
+.bicycles__filter-menu-mobile {
   display: none;
 }
 
 @media screen and (max-width: 425px) {
-  .bicycles__filter-menu-item_mobile {
+  .bicycles__filter-menu-mobile {
     display: block;
   }
 }
