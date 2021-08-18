@@ -24,24 +24,24 @@
         </li>
       </ul>
       <nav class="header__burger-nav">
-          <button type="button" class="header__burger-button"></button>
-          <div class="header__burger-content">
-            <ul class="header__burger-list">
-              <li class="header__burger-list-item"><a href="#road" class="header__burger-link">Покрытия и градиенты</a>
-              </li>
-              <li class="header__burger-list-item"><a href="#bicycles" class="header__burger-link">Велосипеды</a>
-              </li>
-              <li class="header__burger-list-item"><a href="#workout-apps" class="header__burger-link">Тренировки</a>
-              </li>
-            </ul>
-            <div class="footer__theme-change-container header__mobile-theme-change-container">
-              <button class="footer__theme-light-button"></button>
-              <label class="footer__theme-switch">
-                <input type="checkbox" name="theme-change"/>
-                <span class="footer__theme-slider"></span>
-              </label>
-              <button class="footer__theme-dark-button"></button>
-            </div>
+        <button type="button" class="header__burger-button"></button>
+        <div class="header__burger-content">
+        <ul class="header__burger-list">
+          <li class="header__burger-list-item"><a href="#road" class="header__burger-link">Покрытия и градиенты</a>
+          </li>
+          <li class="header__burger-list-item"><a href="#bicycles" class="header__burger-link">Велосипеды</a>
+          </li>
+          <li class="header__burger-list-item"><a href="#workout-apps" class="header__burger-link">Тренировки</a>
+          </li>
+        </ul>
+        <div class="footer__theme-change-container header__mobile-theme-change-container">
+          <button class="footer__theme-light-button"></button>
+          <label class="footer__theme-switch">
+          <input type="checkbox" name="theme-change"/>
+          <span class="footer__theme-slider"></span>
+          </label>
+          <button class="footer__theme-dark-button"></button>
+        </div>
       </nav>
     </header>
     <main class="content">
@@ -53,7 +53,9 @@
             живописным маршрутам – нужно только определиться с выбором
             велосипеда и отправиться в путь.
           </p>
-          <a href="#" class="about__details-link"><div class="about__details-button">Подробнее</div></a>
+          <a href="#" class="about__details-link">
+            <div class="about__details-button">Подробнее</div>
+          </a>
           <div class="about__model-description">
             <p class="about__model-name">Cannondale Systemsix</p>
             <div class="about__breakline"></div>
@@ -70,7 +72,7 @@
           src="./images/eddie-merks/eddie-merks-image.jpg"
           alt=""
           class="author__image"
-        />
+          />
         <div class="author__info-wrapper">
           <h2 class="author__quote">
             «Катайся много или мало, долго или коротко, как хочешь - но катайся»
@@ -95,14 +97,14 @@
               src="./images/highway/slide-highway.jpg"
               alt="slider-image"
               class="road__slider-image"
-            />
+              />
             <div class="road__slider-rectangle">
               <div class="road__slider-rectangle-background">
                 <img
                   src="./images/highway/Vector-highway.svg"
                   alt="highway"
                   class="road__slider-vector"
-                />
+                  />
               </div>
             </div>
           </div>
@@ -110,15 +112,15 @@
             src="./images/highway/slide-forest.jpg"
             alt="slider-image"
             class="road__slider-image"
-          />
+            />
         </div>
         <div class="road__pagination">
           <button
             class="road__pagination-button road__pagination-button_previous"
-          ></button>
+            ></button>
           <button
             class="road__pagination-button road__pagination-button_next"
-          ></button>
+            ></button>
         </div>
       </section>
       <section class="bicycles" id="bicycles">
@@ -130,10 +132,10 @@
               <a
                 href="#"
                 class="
-                  bicycles__filter-menu-link bicycles__filter-menu-link_active
+                bicycles__filter-menu-link bicycles__filter-menu-link_active
                 "
                 >Шоссе</a
-              >
+                >
             </li>
             <li class="bicycles__filter-menu-item">
               <a href="#" class="bicycles__filter-menu-link">Грэвел</a>
@@ -151,12 +153,11 @@
           </ul>
         </div>
         <div class="bicycles__slider-container swiper-container">
-        <div class="bicycles__slider-wrapper swiper-wrapper">
+          <div class="bicycles__slider-wrapper swiper-wrapper">
+          </div>
+          <div class="swiper-pagination bicycles__mobile-pagination">
+          </div>
         </div>
-        <div class="swiper-pagination bicycles__mobile-pagination">
-
-        </div>
-      </div>
       </section>
       <section class="workout-apps" id="workout-apps">
         <div class="mobile-content-breakline"></div>
@@ -176,7 +177,7 @@
           src="./images/workout/workout-image.jpg"
           alt="дорога"
           class="workout-apps__background-image"
-        />
+          />
       </section>
     </main>
     <footer class="footer">
@@ -194,25 +195,25 @@
       <div class="footer__theme-change-container">
         <span class="footer__theme-light-button"></span>
         <label class="footer__theme-switch">
-          <input type="checkbox" name="theme-change"/>
-          <span class="footer__theme-slider"></span>
+        <input type="checkbox" name="theme-change"/>
+        <span class="footer__theme-slider"></span>
         </label>
         <span class="footer__theme-dark-button"></span>
       </div>
     </footer>
     <template id="bicycle-item">
       <div class="bicycle__item swiper-slide">
-      <a href="#" class="bicycles__slider-item-link">
-        <figure class="bicycles__slider-item">
+        <a href="#" class="bicycles__slider-item-link">
+          <figure class="bicycles__slider-item">
           <img
             src="./images/bicycles/bmc-one-bicycle.jpg"
             alt="bicycle"
             class="bicycles__slider-image"
-          />
+            />
           <figcaption class="bicycles__slider-caption">
             Cervelo Aspero GRX 810
           </figcaption>
-      </a>
+        </a>
       </div>
     </template>
     <script src="./scripts/bicycle-objects.js"></script>
