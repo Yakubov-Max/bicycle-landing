@@ -1,3 +1,5 @@
+const body = document.querySelector(".page")
+
 const headerDropdownButton = document.querySelector(".header__burger-button");
 const headerDropdownContent = document.querySelector(".header__burger-content");
 
@@ -13,6 +15,7 @@ headerDropdownLinks.forEach((element) => {
 function handleDropdownButton() {
   headerDropdownContent.classList.toggle("header__burger-content_opened");
   headerDropdownButton.classList.toggle("header__burger-button_opened");
+  body.classList.toggle("page_scroll-hidden")
 }
 
 const roadSection = document.querySelector(".road");
@@ -165,7 +168,7 @@ if (window.innerWidth <= 425) {
   pagination.style.bottom = 0;
 }
 
-const body = document.querySelector(".page")
+
 const footer = document.querySelector(".footer")
 const breaklines = document.querySelectorAll(".mobile-content-breakline")
 const themeChangeButtons = document.querySelectorAll('input[name=theme-change]')

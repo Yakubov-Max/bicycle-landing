@@ -16,6 +16,10 @@
   color: #ffffff;
 }
 
+.page_scroll-hidden {
+  overflow-y: hidden;
+}
+
 .content {
   display: flex;
   flex-direction: column;
@@ -424,8 +428,14 @@
 .author__description {
   display: flex;
   flex-direction: column;
+  padding-top: 20px;
 }
 
+@media screen and (max-width: 425px) {
+  .author__description {
+    padding-top: 0px;
+  }
+}
 .author__name {
   margin: 0;
   font-size: 20px;
@@ -1291,6 +1301,7 @@ input:checked + .theme-change__slider:before {
   display: flex;
   padding-bottom: 36px;
   justify-content: center;
+  padding-top: 316px;
 }
 
 .header__list {
@@ -1353,14 +1364,13 @@ input:checked + .theme-change__slider:before {
 .header__burger-content {
   display: none;
   flex-direction: column;
-  justify-content: space-between;
   position: absolute;
   background-color: inherit;
   top: 74px;
   right: 0px;
   z-index: 44;
   width: 100%;
-  min-height: 566px;
+  height: 100vh;
 }
 
 .header__burger-link {
