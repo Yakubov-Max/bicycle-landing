@@ -3,6 +3,7 @@
 @import "./__list-item/workout-apps__list-item.scss";
 @import "./__background-image/workout-apps__background-image.scss";
 @import "./__list-link/workout-apps__list-link.scss";
+@import "./__background-image-wrapper/workout-apps__background-image-wrapper.scss";
 
 .workout-apps {
   display: flex;
@@ -35,6 +36,7 @@
 @media screen and (max-width: $breakpoint-large-mobile) {
   .workout-apps {
     flex-direction: column;
+    padding-top: 0px;
     padding-left: 18px;
     padding-right: 18px;
     padding-bottom: 60px;

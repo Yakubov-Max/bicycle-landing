@@ -487,6 +487,11 @@
     padding-top: 4px;
   }
 }
+.author__background-image-wrapper {
+  display: flex;
+  align-items: center;
+}
+
 .author {
   padding-top: 120px;
   padding-bottom: 60px;
@@ -702,7 +707,6 @@
   .bicycles__header {
     flex-direction: column;
     padding-bottom: 20px;
-    padding-top: 40px;
   }
 }
 .bicycles__filter-menu {
@@ -720,7 +724,7 @@
 }
 @media screen and (max-width: 425px) {
   .bicycles__filter-menu {
-    padding-top: 20px;
+    display: none;
   }
 }
 .bicycles__filter-menu-item {
@@ -818,7 +822,9 @@
 }
 @media screen and (max-width: 425px) {
   .bicycles__slider-image {
-    box-shadow: none;
+    box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.22);
+    box-sizing: content-box;
+    border: 20px solid #f4f4f4;
     height: 254px;
     width: 254px;
   }
@@ -856,9 +862,17 @@
 }
 @media screen and (max-width: 425px) {
   .bicycles__slider-caption {
+    font-size: 14px;
+    line-height: 18px;
+    font-style: normal;
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 600;
+    opacity: 100%;
+    position: absolute;
     text-align: center;
-    padding-top: 0px;
     padding-bottom: 16px;
+    bottom: 0;
+    width: 100%;
   }
 }
 .bicycles__filter-menu-mobile {
@@ -867,6 +881,7 @@
 
 @media screen and (max-width: 425px) {
   .bicycles__filter-menu-mobile {
+    padding-top: 40px;
     display: block;
   }
 }
@@ -901,7 +916,7 @@
   .bicycles__mobile-pagination {
     display: flex;
     justify-content: center;
-    bottom: 0;
+    margin-top: 20px;
   }
 }
 .swiper-pagination-bullet {
@@ -1052,13 +1067,17 @@
     max-height: 225px;
     order: 2;
     position: absolute;
-    top: 240px;
     bottom: 250px;
   }
 }
 .workout-apps__list-link {
   text-decoration: none;
   color: inherit;
+}
+
+.workout-apps__background-image-wrapper {
+  display: flex;
+  align-items: center;
 }
 
 .workout-apps {
@@ -1090,6 +1109,7 @@
 @media screen and (max-width: 425px) {
   .workout-apps {
     flex-direction: column;
+    padding-top: 0px;
     padding-left: 18px;
     padding-right: 18px;
     padding-bottom: 60px;
@@ -1456,7 +1476,7 @@ input:checked + .theme-change__slider:before {
 
 .mobile-content-breakline {
   display: none;
-  width: 284px;
+  width: 100%;
   height: 1px;
   background-color: #e3e3e3;
   margin-top: 40px;

@@ -3,23 +3,12 @@
   height: auto;
 }
 
-@media screen and (max-width: $breakpoint-laptop) {
-  .workout-apps__background-image {
-  }
-}
-
-@media screen and (max-width: $breakpoint-tablet) {
- .workout-apps__background-image {
- }
-}
-
 @media screen and (max-width: $breakpoint-large-mobile) {
  .workout-apps__background-image {
   max-width: 284px;
   max-height: 225px;
-   order: 2;
-   position: absolute;
-   top: 240px;
-   bottom: 250px;
+  order: 2;
+  position: absolute;
+  bottom: 250px;
  }
 }
