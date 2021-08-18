@@ -177,8 +177,8 @@ themeChangeButtons.forEach(element => {
 
 function handleThemeChange() {
   console.log("click")
-  body.classList.toggle('page_dark-mode')
-  footer.classList.toggle('footer_dark-mode')
+  body.classList.toggle('page_mode_dark')
+  footer.classList.toggle('footer_mode_dark')
   console.log(breaklines)
   breaklines.forEach(element => {
     element.classList.toggle('mobile-content-breakline_dark-mode')
