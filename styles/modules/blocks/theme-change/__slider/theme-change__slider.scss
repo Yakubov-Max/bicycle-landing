@@ -1,4 +1,4 @@
-.footer__theme-slider {
+.theme-change__slider {
   position: absolute;
   cursor: pointer;
   top: 0;
@@ -11,7 +11,7 @@
   border-radius: 9999px;
 }
 
-.footer__theme-slider::before {
+.theme-change__slider::before {
   position: absolute;
   content: "";
   height: 20px;
@@ -24,11 +24,11 @@
   border-radius: 50%;
 }
 
-input:checked + .footer__theme-slider {
+input:checked + .theme-change__slider {
   background-color: #545454;
 }
 
-input:checked + .footer__theme-slider:before {
+input:checked + .theme-change__slider:before {
   -webkit-transform: translateX(20px);
   -ms-transform: translateX(20px);
   transform: translateX(20px);
