@@ -100,10 +100,11 @@
   padding-top: 428px;
 }
 
-.section-description_workout-apps {
-  padding-top: 305px;
+@media screen and (max-width: 425px) {
+  .section-description_place_workout-apps {
+    padding-top: 305px;
+  }
 }
-
 .about__text-container {
   padding-right: 250px;
   padding-top: 60px;
