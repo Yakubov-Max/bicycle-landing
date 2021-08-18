@@ -7,9 +7,8 @@
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
-  margin: 0;
+  margin: 0 auto;
   background-color: #f4f4f4;
-  overflow-x: hidden;
 }
 
 .page_mode_dark {
@@ -20,7 +19,8 @@
 .content {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 425px) {
@@ -50,7 +50,7 @@
     opacity: 100%;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 520px) {
   .section-title {
     font-size: 32px;
     line-height: 40px;
@@ -96,10 +96,11 @@
     order: 3;
   }
 }
-.section-description_mobile {
-  padding-top: 428px;
+@media screen and (max-width: 425px) {
+  .section-description_mobile {
+    padding-top: 428px;
+  }
 }
-
 @media screen and (max-width: 425px) {
   .section-description_place_workout-apps {
     padding-top: 305px;
@@ -341,17 +342,19 @@
 }
 .author__image {
   object-fit: cover;
+  width: 100%;
+  height: auto;
 }
 
 @media screen and (max-width: 1024px) {
   .author__image {
-    width: 420px;
+    max-width: 420px;
   }
 }
 @media screen and (max-width: 425px) {
   .author__image {
-    width: 284px;
-    height: 204px;
+    max-width: 284px;
+    max-height: 204px;
     padding-top: 20px;
   }
 }
@@ -383,7 +386,7 @@
   font-weight: 600;
   opacity: 100%;
   letter-spacing: -0.5px;
-  width: 470px;
+  max-width: 470px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -512,6 +515,7 @@
     padding-right: 18px;
     padding-bottom: 0px;
     flex-direction: column;
+    align-items: center;
   }
 }
 .road__slider {
@@ -523,6 +527,11 @@
 @media screen and (max-width: 768px) {
   .road__slider {
     padding-top: 40px;
+  }
+}
+@media screen and (max-width: 690px) {
+  .road__slider {
+    justify-content: center;
   }
 }
 @media screen and (max-width: 425px) {
@@ -555,9 +564,9 @@
     padding-left: 20px;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 690px) {
   .road__slider-image {
-    width: 284px;
+    width: 264px;
     height: 175px;
   }
 
@@ -661,7 +670,7 @@
     padding-left: 20px;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 690px) {
   .road {
     padding-top: 0px;
     padding-left: 18px;
@@ -704,6 +713,11 @@
   align-items: center;
 }
 
+@media screen and (max-width: 520px) {
+  .bicycles__filter-menu {
+    align-items: flex-end;
+  }
+}
 @media screen and (max-width: 425px) {
   .bicycles__filter-menu {
     padding-top: 20px;
@@ -735,6 +749,16 @@
   color: inherit;
 }
 
+@media screen and (max-width: 520px) {
+  .bicycles__filter-menu-link {
+    font-size: 14px;
+    line-height: 20px;
+    font-style: normal;
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 600;
+    opacity: 70%;
+  }
+}
 .bicycles__filter-menu-link_active {
   opacity: 100%;
 }
@@ -742,11 +766,11 @@
 .bicycles__slider-wrapper {
   display: flex;
   justify-content: space-between;
+  max-width: 1200px;
 }
 
 .bicycles__slider-item {
   margin: 0;
-  padding-left: 30px;
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -757,16 +781,23 @@
 @media screen and (max-width: 425px) {
   .bicycles__slider-item {
     padding-left: 0px;
-    width: 288px;
+    width: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 }
+@media screen and (max-width: 320px) {
+  .bicycles__slider-item {
+    width: 288px;
+  }
+}
 .bicycles__slider-image {
   box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.22);
-  height: 380px;
-  width: 380px;
+  width: 100%;
+  height: auto;
+  max-height: 380px;
+  max-width: 380px;
   border: 20px solid #f4f4f4;
   box-sizing: border-box;
   border-radius: 20px;
@@ -774,14 +805,14 @@
 
 @media screen and (max-width: 1024px) {
   .bicycles__slider-image {
-    height: 260px;
-    width: 260px;
+    max-height: 260px;
+    max-width: 260px;
   }
 }
 @media screen and (max-width: 768px) {
   .bicycles__slider-image {
-    height: 210px;
-    width: 210px;
+    max-height: 210px;
+    max-width: 210px;
     border: none;
   }
 }
@@ -897,7 +928,7 @@
 }
 
 .bicycles {
-  max-width: 1440px;
+  max-width: 1200px;
   padding-top: 60px;
   padding-left: 120px;
   padding-right: 120px;
@@ -1011,26 +1042,14 @@
   }
 }
 .workout-apps__background-image {
-  width: 580px;
-  height: 516px;
+  width: 100%;
+  height: auto;
 }
 
-@media screen and (max-width: 1024px) {
-  .workout-apps__background-image {
-    width: 470px;
-    height: 436px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .workout-apps__background-image {
-    width: 400px;
-    height: 300px;
-  }
-}
 @media screen and (max-width: 425px) {
   .workout-apps__background-image {
-    width: 284px;
-    height: 225px;
+    max-width: 284px;
+    max-height: 225px;
     order: 2;
     position: absolute;
     top: 240px;
@@ -1120,7 +1139,7 @@
   width: 38px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 600px) {
   .footer__logo {
     display: block;
   }
@@ -1243,7 +1262,7 @@ input:checked + .theme-change__slider:before {
   align-items: flex-end;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 600px) {
   .theme-change {
     display: none;
   }

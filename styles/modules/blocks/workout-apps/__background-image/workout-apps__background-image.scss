@@ -1,26 +1,22 @@
 .workout-apps__background-image {
-  width: 580px;
-  height: 516px;
+  width: 100%;
+  height: auto;
 }
 
 @media screen and (max-width: $breakpoint-laptop) {
   .workout-apps__background-image {
-    width: 470px;
-    height: 436px;
   }
 }
 
 @media screen and (max-width: $breakpoint-tablet) {
  .workout-apps__background-image {
-   width: 400px;
-   height: 300px;
  }
 }
 
 @media screen and (max-width: $breakpoint-large-mobile) {
  .workout-apps__background-image {
-   width: 284px;
-   height: 225px;
+  max-width: 284px;
+  max-height: 225px;
    order: 2;
    position: absolute;
    top: 240px;

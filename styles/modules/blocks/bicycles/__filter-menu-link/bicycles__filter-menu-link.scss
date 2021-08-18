@@ -3,3 +3,9 @@
   @include font-size(18, 28, 600, 70%);
   color: inherit;
 }
+
+@media screen and (max-width: 520px) {
+  .bicycles__filter-menu-link {
+    @include font-size(14, 20, 600, 70%);
+  }
+}
