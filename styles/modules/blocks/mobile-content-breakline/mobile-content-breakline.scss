@@ -1,0 +1,15 @@
+.mobile-content-breakline {
+  display: none;
+  width: 284px;
+  height: 1px;
+  background-color: #e3e3e3;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+  .mobile-content-breakline {
+    display: block;
+  }
+}
+
+@import "./_dark-mode/mobile-content-breakline_dark-mode.scss";

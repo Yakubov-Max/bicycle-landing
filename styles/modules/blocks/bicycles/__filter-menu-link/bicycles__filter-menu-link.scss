@@ -1,0 +1,5 @@
+.bicycles__filter-menu-link {
+  @include reset-link-style;
+  @include font-size(18, 28, 600, 70%);
+  color: inherit;
+}

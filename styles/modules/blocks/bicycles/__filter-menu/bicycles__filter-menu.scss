@@ -1,0 +1,12 @@
+.bicycles__filter-menu {
+  @include reset-list-style;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+ .bicycles__filter-menu {
+   padding-top: 20px;
+ }
+}
+

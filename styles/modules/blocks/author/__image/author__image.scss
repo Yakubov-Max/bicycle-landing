@@ -1,0 +1,19 @@
+.author__image {
+  object-fit: cover;
+}
+
+@media screen and (max-width: $breakpoint-laptop) {
+  .author__image {
+    width: 420px;
+  }
+}
+
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+ .author__image {
+   width: 284px;
+   height: 204px;
+   padding-top: 20px;
+ }
+}
+

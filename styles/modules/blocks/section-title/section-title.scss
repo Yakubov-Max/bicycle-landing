@@ -1,0 +1,20 @@
+.section-title {
+  @include reset-margin;
+  @include font-size(55, 60, 700);
+  letter-spacing: $title-letter-spacing;
+  max-width: $text-container-width;
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+ .section-title {
+   @include font-size(44, 50, 700);
+ }
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+  .section-title {
+    @include font-size(32, 40, 700);
+    max-width: 284px;
+    padding-top: 40px;
+  }
+}

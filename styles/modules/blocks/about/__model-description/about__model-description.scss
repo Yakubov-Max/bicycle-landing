@@ -1,0 +1,18 @@
+.about__model-description {
+  display: flex;
+  align-items: center;
+  padding-top: 167px;
+}
+
+
+@media screen and (max-width: $breakpoint-tablet) {
+  .about__model-description {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+ .about__model-description {
+   display: none;
+ }
+}

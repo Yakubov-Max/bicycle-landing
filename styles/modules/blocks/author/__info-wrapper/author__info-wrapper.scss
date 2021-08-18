@@ -1,0 +1,20 @@
+.author__info-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 80px;
+}
+
+@media screen and (max-width: $breakpoint-laptop) {
+  .author__info-wrapper {
+    padding-left: 40px;
+  }
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+  .author__info-wrapper {
+    padding-top: 40px;
+    padding-left: 0px;
+    padding-bottom: 40px;
+  }
+}

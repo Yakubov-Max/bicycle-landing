@@ -1,0 +1,30 @@
+.about__bike-fix-container {
+  position: absolute;
+  height: 777px;
+  width: 810px;
+  top: 0;
+  right: 0;
+}
+
+@media screen and (max-width: $breakpoint-laptop) {
+ .about__bike-fix-container {
+   width: 530px;
+ }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+ .about__bike-fix-container {
+   height: 600px;
+   width: 330px;
+ }
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+ .about__bike-fix-container {
+   height: 160px;
+   width: 234px;
+   left: 38px;
+   top: 351px;
+ }
+}
+

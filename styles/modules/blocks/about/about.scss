@@ -1,0 +1,40 @@
+@import "./__text-container/about__text-container.scss";
+@import "./__details-button/about__details-button.scss";
+@import "./__model-description/about__model-description.scss";
+@import "./__model-name/about__model-name.scss";
+@import "./__breakline/about__breakline.scss";
+@import "./__bike-fix-container/about__bike-fix-container.scss";
+@import "./__bike-fix/about__bike-fix.scss";
+@import "./__background-image/about__background-image.scss";
+
+.about {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 120px;
+  padding-top: 20px;
+  overflow: visible;
+}
+
+@media screen and (max-width: $breakpoint-laptop) {
+  .about {
+    padding-left: 60px;
+  }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+  .about {
+    padding-left: 20px;
+  }
+
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+ .about {
+   padding-top: 40px;
+   padding-left: 0px;
+   padding-right: 0px;
+   padding-bottom: 40px;
+ }
+}

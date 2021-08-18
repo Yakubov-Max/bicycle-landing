@@ -1,0 +1,10 @@
+.header__burger-nav {
+  display: none;
+  background-color: inherit;
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+ .header__burger-nav {
+   display: block;
+ }
+}

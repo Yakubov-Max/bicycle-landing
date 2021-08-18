@@ -1,0 +1,33 @@
+.about__details-button {
+  @include font-size(14, 17, 600);
+  height: 50px;
+  width: 180px;
+  border-radius: 4px;
+  background-color: $about-button-color;
+  border: none;
+  cursor: pointer;
+  color: $font-dark-color;
+  margin-top: 50px;
+  transition: all 0.4s ease;
+}
+
+.about__details-button:hover {
+  background: linear-gradient(to right, rgba(49, 158, 117) 50%, $about-button-color 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  animation: progressFill 6s -.1s ease-in-out forwards;
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+ .about__details-button {
+   margin-top: 40px;
+   width: 284px;
+   height: 46px;
+ }
+}
+
+
+@keyframes progressFill {
+  from {background-position: right bottom;}
+  to {background-position: left bottom;}
+}

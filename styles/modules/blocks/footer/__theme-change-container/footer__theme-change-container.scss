@@ -1,0 +1,10 @@
+.footer__theme-change-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+ .footer__theme-change-container {
+   display: none;
+ }
+}

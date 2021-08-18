@@ -1,0 +1,5 @@
+.header__link {
+  @include reset-link-style;
+  @include font-size(14, 18, 500);
+  color: inherit;
+}

@@ -1,0 +1,27 @@
+.road__pagination {
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+  height: 50px;
+  padding-top: 50px;
+}
+
+@media screen and (max-width: $breakpoint-laptop) {
+ .road__pagination {
+   padding-top: 25px;
+ }
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+ .road__pagination {
+   justify-content: center;
+   order: 1;
+   align-self: flex-end;
+   padding-top: 0px;
+   top: 90px;
+   width: 58px;
+   height: 24px;
+   bottom: 394px;
+   position: absolute;
+ }
+}

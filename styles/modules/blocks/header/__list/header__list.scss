@@ -1,0 +1,13 @@
+.header__list {
+  @include reset-list-style;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding-right: 120px;
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+ .header__list {
+   padding-right: 30px;
+ }
+}

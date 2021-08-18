@@ -1,0 +1,10 @@
+.page {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  margin: 0;
+  background-color: $background-light-color;
+  overflow-x: hidden;
+}
+
+@import "./_dark-mode/page_dark-mode.scss"

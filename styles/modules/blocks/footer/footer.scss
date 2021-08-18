@@ -1,0 +1,49 @@
+@import "./__subscription/footer__subscription.scss";
+@import "./__subscription-title/footer__subscription-title.scss";
+@import "./__subscription-form/footer__subscription-form.scss";
+@import "./__company-name/footer__company-name.scss";
+@import "./__theme-change-container/footer__theme-change-container.scss";
+@import "./__theme-light-button/footer__theme-light-button.scss";
+@import "./__theme-slider/footer__theme-slider.scss";
+@import "./__theme-switch/footer__theme-switch.scss";
+@import "./__theme-dark-button/footer__theme-dark-button.scss";
+@import "./__logo/footer__logo.scss";
+@import "./__company-container/footer__company-container.scss";
+
+.footer {
+  padding-top: 80px;
+  padding-bottom: 60px;
+  padding-left: 120px;
+  padding-right: 120px;
+  background-color: $footer-background-color;
+  color: inherit;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_dark-mode {
+  background-color:#2F2F2F;
+}
+
+@media screen and (max-width: $breakpoint-laptop) {
+  .footer {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+  .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+  .footer {
+    padding-top: 60px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 16px;
+  }
+}

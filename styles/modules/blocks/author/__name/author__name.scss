@@ -1,0 +1,17 @@
+.author__name {
+  @include reset-margin;
+  @include font-size(20, 32, 500);
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+ .author__name {
+   @include font-size(16, 26, 500)
+ }
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+  .author__name {
+    @include font-size(14, 22, 500);
+  }
+}
+

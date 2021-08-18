@@ -1,0 +1,28 @@
+.bicycles__header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 140px;
+}
+
+@media screen and (max-width: $breakpoint-laptop) {
+  .bicycles__header {
+    padding-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+  .bicycles__header {
+    padding-bottom: 50px;
+  }
+
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+ .bicycles__header {
+   flex-direction: column;
+   padding-bottom: 20px;
+   padding-top: 40px;
+ }
+}
+
+

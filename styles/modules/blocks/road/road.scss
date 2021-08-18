@@ -1,0 +1,41 @@
+@import "./__slider/road__slider.scss";
+@import "./__slider-image/road__slider-image.scss";
+@import "./__slider-rectangle-wrapper/road__slider-rectangle-wrapper.scss";
+@import "./__slider-rectangle-background/road__slider-rectangle-background.scss";
+@import "./__slider-rectangle/road__slider-rectangle.scss";
+@import "./__pagination/road__pagination.scss";
+@import "./__pagination-button/road__pagination-button.scss";
+@import "./__pagination-button/_previous/road__pagination-button_previous.scss";
+@import "./__pagination-button/_next/road__pagination-button_next.scss";
+
+.road {
+  padding-top: 60px;
+  padding-left: 120px;
+  padding-bottom: 60px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: $breakpoint-laptop) {
+ .road {
+   padding-left: 60px;
+ }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+  .road {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+  .road {
+    padding-top: 0px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 40px;
+  }
+}

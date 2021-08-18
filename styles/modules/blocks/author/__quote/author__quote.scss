@@ -1,0 +1,26 @@
+.author__quote {
+  @include reset-margin;
+  @include font-size(34, 44, 600);
+  letter-spacing: $title-letter-spacing;
+  width: $text-container-width + 10px;
+}
+
+@media screen and (max-width: $breakpoint-laptop) {
+  .author__quote {
+    @include font-size(28, 34, 600);
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+  .author__quote {
+    @include font-size(22, 28, 600);
+  }
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+ .author__quote {
+   @include font-size(23, 29, 600);
+   padding-bottom: 40px;
+ }
+}

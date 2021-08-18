@@ -1,0 +1,12 @@
+.footer__subscription-title {
+  @include reset-margin;
+  @include font-size(24, 32, 600);
+
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+ .footer__subscription-title {
+   padding-bottom: 40px;
+ }
+}

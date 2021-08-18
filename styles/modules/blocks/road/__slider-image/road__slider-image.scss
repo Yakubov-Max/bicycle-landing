@@ -1,0 +1,37 @@
+.road__slider-image {
+  width: 650px;
+  height: 400px;
+}
+
+.road__slider-image:last-child {
+  padding-left: 40px;
+}
+
+@media screen and (max-width: $breakpoint-laptop) {
+ .road__slider-image {
+   width: 450px;
+   height: 300px;
+ }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+  .road__slider-image {
+    width: 340px;
+    height: 200px;
+  }
+
+  .road__slider-image:last-child {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+  .road__slider-image {
+    width: 284px;
+    height: 175px;
+  }
+
+  .road__slider-image:last-child {
+    display: none;
+  }
+}

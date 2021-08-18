@@ -1,0 +1,13 @@
+.swiper-pagination-bullet {
+  padding: 0;
+  margin-left: 5px;
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  background-color: #CACACA;
+  border: none;
+}
+
+.bicycles__pagination-dot:first-child {
+  margin-left: 0px;
+}

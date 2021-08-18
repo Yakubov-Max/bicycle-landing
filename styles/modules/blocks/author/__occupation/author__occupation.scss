@@ -1,0 +1,17 @@
+.author__occupation {
+  @include reset-margin;
+  @include font-size(16, 28, 400, 70%);
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+  .author__occupation {
+    @include font-size(14, 24, 400, 70%)
+  }
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+  .author__occupation {
+    @include font-size(10, 16, 400, 70%);
+    padding-top: 4px;
+  }
+}

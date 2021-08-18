@@ -1,0 +1,54 @@
+@import "./__header/bicycles__header.scss";
+@import "./__filter-menu/bicycles__filter-menu.scss";
+@import "./__filter-menu-item/bicycles__filter-menu-item.scss";
+@import "./__filter-menu-link/bicycles__filter-menu-link.scss";
+@import "./__filter-menu-link/_active/bicycles__filter-menu-link_active.scss";
+@import "./__slider-wrapper/bicycles__slider-wrapper.scss";
+@import "./__slider-item/bicycles__slider-item.scss";
+@import "./__slider-image/bicycles__slider-image.scss";
+@import "./__slider-caption/bicycles__slider-caption.scss";
+@import "./__filter-menu-item/_mobile/bicycles__filter-menu-item_mobile.scss";
+@import "./__select-dropdown/bicycles__select-dropdown.scss";
+@import "./__select-option/bicycles__select-option.scss";
+@import "./__mobile-pagination/bicycles__mobile-pagination.scss";
+@import "./__pagination-dot/bicycles__pagination-dot.scss";
+@import "./__pagination-dot/_active/bicycles__pagination-dot_active.scss";
+@import "./__slider-item-link/bicycles__slider-item-link.scss";
+
+.bicycles {
+  max-width: 1440px;
+  padding-top: 60px;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-bottom: 60px;
+}
+
+@media screen and (max-width: $breakpoint-laptop) {
+  .bicycles {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+  .bicycles {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+ .bicycles {
+   padding-left: 18px;
+   padding-right: 18px;
+   padding-top: 0px;
+   padding-bottom: 40px;
+   max-width: 425px;
+ }
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+  .bicycles {
+    max-width: 280px;
+  }
+}

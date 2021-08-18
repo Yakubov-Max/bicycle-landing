@@ -1,0 +1,24 @@
+.section-description {
+  @include reset-margin;
+  @include font-size(18, 28, 400, $text-opacity);
+  max-width: $text-container-width;
+  padding-top: 50px;
+}
+
+
+@media screen and (max-width: $breakpoint-tablet) {
+ .section-description {
+   @include font-size(16, 20, 400, $text-opacity);
+   padding-top: 35px;
+ }
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+  .section-description {
+    @include font-size(12, 18, 400, 70%);
+    order: 3;
+  }
+}
+
+@import "./_mobile/section-description_mobile.scss";
+@import "./_workout-apps/section-description_workout-apps.scss";

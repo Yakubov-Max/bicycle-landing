@@ -1,0 +1,24 @@
+.about__text-container {
+  padding-right: 250px;
+  padding-top: 60px;
+}
+
+@media screen and (max-width: $breakpoint-laptop) {
+ .about__text-container {
+   padding-right: 120px;
+ }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+ .about__text-container {
+   padding-right: 40px;
+ }
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+ .about__text-container {
+   padding-left: 18px;
+   padding-right: 18px;
+   padding-top: 0px;
+ };
+}

@@ -1,0 +1,12 @@
+.header__burger-content {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  background-color:inherit;
+  top: 74px;
+  right: 0px;
+  z-index: 44;
+  width: 100%;
+  min-height: 566px;
+}

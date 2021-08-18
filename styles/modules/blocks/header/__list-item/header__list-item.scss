@@ -1,0 +1,10 @@
+.header__list-item {
+  padding-left: 34px;
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+  .header__list-item {
+    display: none;
+  }
+}
+
