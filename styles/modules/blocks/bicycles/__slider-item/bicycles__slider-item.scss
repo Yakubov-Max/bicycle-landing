@@ -2,10 +2,10 @@
   @include reset-margin;
   padding-left: 30px;
   cursor: pointer;
-}
-
-.bicycles__slider-item:first-child {
-  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: $breakpoint-large-mobile) {
