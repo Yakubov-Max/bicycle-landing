@@ -1031,6 +1031,11 @@
     bottom: 250px;
   }
 }
+.workout-apps__list-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .workout-apps {
   display: flex;
   justify-content: space-between;
