@@ -979,6 +979,7 @@
     padding-top: 0px;
     padding-bottom: 40px;
     max-width: 425px;
+    position: relative;
   }
 }
 @media screen and (max-width: 320px) {
