@@ -4,9 +4,15 @@
   align-items: center;
 }
 
+@media screen and (max-width: 520px) {
+  .bicycles__filter-menu {
+    align-items: flex-end;
+  }
+ }
+
 @media screen and (max-width: $breakpoint-large-mobile) {
  .bicycles__filter-menu {
-   padding-top: 20px;
+   display: none;
  }
 }
 

@@ -1,3 +1,5 @@
+const body = document.querySelector(".page");
+
 const headerDropdownButton = document.querySelector(".header__burger-button");
 const headerDropdownContent = document.querySelector(".header__burger-content");
 
@@ -13,6 +15,7 @@ headerDropdownLinks.forEach((element) => {
 function handleDropdownButton() {
   headerDropdownContent.classList.toggle("header__burger-content_opened");
   headerDropdownButton.classList.toggle("header__burger-button_opened");
+  body.classList.toggle("page_scroll-hidden");
 }
 
 const roadSection = document.querySelector(".road");
@@ -36,21 +39,23 @@ let currentPage = 0;
 
 function handleNextPagination() {
   currentPage += 1;
+  if (currentPage >= sliderObjects.length - 1) {
+    currentPage = sliderObjects.length - 1;
+  }
+
   paginate(currentPage);
 }
 
 function handlePreviousPagination() {
   currentPage -= 1;
+  if (currentPage <= 0) {
+    currentPage = 0;
+  }
+
   paginate(currentPage);
 }
 
 function paginate(currentPage) {
-  if (currentPage <= 0) {
-    currentPage = 0;
-  } else if (currentPage >= sliderObjects.length - 1) {
-    currentPage = sliderObjects.length - 1;
-  }
-
   let currentSlide = sliderObjects[currentPage];
   let roadFirstImage = roadImages[0];
   let roadSecondImage = roadImages[1];
@@ -165,23 +170,20 @@ if (window.innerWidth <= 425) {
   pagination.style.bottom = 0;
 }
 
-const body = document.querySelector(".page")
-const footer = document.querySelector(".footer")
-const breaklines = document.querySelectorAll(".mobile-content-breakline")
-const themeChangeButtons = document.querySelectorAll('input[name=theme-change]')
+const footer = document.querySelector(".footer");
+const breaklines = document.querySelectorAll(".mobile-content-breakline");
+const themeChangeButtons = document.querySelectorAll(
+  "input[name=theme-change]"
+);
 
-
-themeChangeButtons.forEach(element => {
-  element.addEventListener("change", handleThemeChange)
-})
+themeChangeButtons.forEach((element) => {
+  element.addEventListener("change", handleThemeChange);
+});
 
 function handleThemeChange() {
-  console.log("click")
-  body.classList.toggle('page_dark-mode')
-  footer.classList.toggle('footer_dark-mode')
-  console.log(breaklines)
-  breaklines.forEach(element => {
-    element.classList.toggle('mobile-content-breakline_dark-mode')
-  })
-
+  body.classList.toggle("page_mode_dark");
+  footer.classList.toggle("footer_mode_dark");
+  breaklines.forEach((element) => {
+    element.classList.toggle("mobile-content-breakline_dark-mode");
+  });
 }

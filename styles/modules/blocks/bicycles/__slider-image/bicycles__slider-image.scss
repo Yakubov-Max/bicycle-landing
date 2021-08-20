@@ -1,7 +1,9 @@
 .bicycles__slider-image {
   @include box-shadow;
-  height: 380px;
-  width: 380px;
+  width: 100%;
+  height: auto;
+  max-height: 380px;
+  max-width: 380px;
   border: 20px solid $background-light-color;
   box-sizing: border-box;
   border-radius: 20px;
@@ -10,22 +12,24 @@
 
 @media screen and (max-width: $breakpoint-laptop) {
  .bicycles__slider-image {
-   height: 260px;
-   width: 260px;
+   max-height: 260px;
+   max-width: 260px;
  }
 }
 
 @media screen and (max-width: $breakpoint-tablet) {
  .bicycles__slider-image {
-   height: 210px;
-   width: 210px;
+  max-height: 210px;
+  max-width: 210px;
    border: none;
  }
 }
 
 @media screen and (max-width: $breakpoint-large-mobile) {
  .bicycles__slider-image {
-   box-shadow: none;
+   @include box-shadow;
+   box-sizing: content-box;
+   border: 20px solid #f4f4f4;
    height: 254px;
    width: 254px;
  }

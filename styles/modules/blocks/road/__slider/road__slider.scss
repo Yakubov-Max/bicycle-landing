@@ -10,6 +10,12 @@
  }
 }
 
+@media screen and (max-width: 690px) {
+  .road__slider {
+    justify-content: center;
+  }
+ }
+
 @media screen and (max-width: $breakpoint-large-mobile) {
  .road__slider {
    order: 2;

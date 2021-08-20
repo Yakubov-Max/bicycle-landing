@@ -1,0 +1,9 @@
+.form__submit-button {
+  @include font-size(13, 28, 500);
+  position: absolute;
+  border: none;
+  cursor: pointer;
+  right: 22px;
+  top: 11px;
+  background-color: transparent;
+}

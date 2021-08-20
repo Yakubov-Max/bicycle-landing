@@ -1,0 +1,17 @@
+@import "./__dark-button/theme-change__dark-button.scss";
+@import "./__light-button/theme-change__light-button.scss";
+@import "./__slider/theme-change__slider.scss";
+@import "./__switch/theme-change__switch.scss";
+
+.theme-change {
+  display: flex;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 600px) {
+  .theme-change{
+   display: none;
+ }
+}
+
+@import "./_place/theme-change_place_header.scss";

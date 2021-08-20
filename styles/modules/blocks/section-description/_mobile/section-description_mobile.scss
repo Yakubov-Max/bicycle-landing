@@ -1,3 +1,5 @@
-.section-description_mobile {
-  padding-top: 428px;
+@media screen and (max-width: $breakpoint-large-mobile) {
+  .section-description_mobile {
+    padding-top: 428px;
+  }
 }

@@ -18,8 +18,11 @@
 
 @media screen and (max-width: $breakpoint-large-mobile) {
   .bicycles__slider-caption {
+    @include font-size(14, 18, 600);
+    position: absolute;
     text-align: center;
-    padding-top: 0px;
     padding-bottom: 16px;
+    bottom: 0;
+    width: 100%;
   }
 }

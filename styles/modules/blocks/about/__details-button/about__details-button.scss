@@ -1,5 +1,6 @@
 .about__details-button {
   @include font-size(14, 17, 600);
+  letter-spacing: 1px;
   height: 50px;
   width: 180px;
   border-radius: 4px;
@@ -9,6 +10,9 @@
   color: $font-dark-color;
   margin-top: 50px;
   transition: all 0.4s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about__details-button:hover {

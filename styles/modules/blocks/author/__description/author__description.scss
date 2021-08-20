@@ -1,4 +1,11 @@
 .author__description {
   display: flex;
   flex-direction: column;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: $breakpoint-large-mobile) {
+  .author__description {
+    padding-top: 0px;
+  }
 }

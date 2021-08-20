@@ -4,6 +4,7 @@
 @import "./__description/author__description.scss";
 @import "./__name/author__name.scss";
 @import "./__occupation/author__occupation.scss";
+@import "./__background-image-wrapper/author__background-image-wrapper.scss";
 
 .author {
   padding-top: 120px;
@@ -35,5 +36,6 @@
     padding-right: 18px;
     padding-bottom: 0px;
     flex-direction: column;
+    align-items: center;
   }
 }

@@ -2,9 +2,9 @@
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
-  margin: 0;
+  margin: 0 auto;
   background-color: $background-light-color;
-  overflow-x: hidden;
 }
 
-@import "./_dark-mode/page_dark-mode.scss"
+@import "./_mode/page_mode_dark.scss";
+@import "./_scroll-hidden/page_scroll-hidden.scss";
